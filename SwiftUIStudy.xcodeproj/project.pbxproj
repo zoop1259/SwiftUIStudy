@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD28295AB4160034C2B0 /* AlertView.swift */; };
+		C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD2C295AB8D70034C2B0 /* CountingButton.swift */; };
+		C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD2E295AE9C10034C2B0 /* TextFieldView.swift */; };
 		C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */; };
 		C5648DED295AA2DE00322231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEC295AA2DE00322231 /* ContentView.swift */; };
 		C5648DEF295AA2E000322231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DEE295AA2E000322231 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C539BD28295AB4160034C2B0 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		C539BD2C295AB8D70034C2B0 /* CountingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingButton.swift; sourceTree = "<group>"; };
+		C539BD2E295AE9C10034C2B0 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		C5648DE7295AA2DE00322231 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		C5648DEC295AA2DE00322231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C539BD2A295AB41F0034C2B0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C5648DEC295AA2DE00322231 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C539BD2B295AB42C0034C2B0 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				C539BD2C295AB8D70034C2B0 /* CountingButton.swift */,
+				C539BD28295AB4160034C2B0 /* AlertView.swift */,
+				C539BD2E295AE9C10034C2B0 /* TextFieldView.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
 		C5648DDE295AA2DE00322231 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +75,9 @@
 		C5648DE9295AA2DE00322231 /* SwiftUIStudy */ = {
 			isa = PBXGroup;
 			children = (
+				C539BD2A295AB41F0034C2B0 /* Main */,
+				C539BD2B295AB42C0034C2B0 /* Study */,
 				C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */,
-				C5648DEC295AA2DE00322231 /* ContentView.swift */,
 				C5648DEE295AA2E000322231 /* Assets.xcassets */,
 				C5648DF0295AA2E000322231 /* Preview Content */,
 			);
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5648DED295AA2DE00322231 /* ContentView.swift in Sources */,
+				C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */,
 				C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */,
+				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
+				C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
