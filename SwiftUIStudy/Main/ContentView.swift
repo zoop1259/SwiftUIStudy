@@ -24,7 +24,28 @@ struct ContentView: View {
                     NavigationLink(destination: TextFieldView()) {
                         Text("TextField")
                     }
+                    NavigationLink(destination: PickerView()) {
+                        Text("PickerView")
+                    }
+                    NavigationLink(destination: StackView()) {
+                        Text("StackView")
+                    }
                 })
+                
+                Section {
+                    NavigationLink(destination: CurrencyView()) {
+                        Text("계산앱")
+                    }
+                    NavigationLink(destination: SearchBarView()) {
+                        Text("Use SearchBar")
+                    }
+                    NavigationLink(destination: Todos()) {
+                        Text("간단한 TODO")
+                    }
+                }
+                header : {
+                    Text("Basic App") //자동으로 대문자전환.
+                }
             }
             .navigationBarTitle("List")
         }

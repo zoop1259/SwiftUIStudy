@@ -12,7 +12,7 @@ struct PickerView: View {
     @State private var selectedStudent = "Harry" //베이스값.
 
     var body: some View {
-        NavigationView {
+        //NavigationView {
             Form {
                 Picker("Select your student", selection: $selectedStudent) {
                     ForEach(students, id: \.self) { //선언한 학생의 목록을 foreach로 묶고 id값을 self로하여 등록한다.
@@ -20,7 +20,7 @@ struct PickerView: View {
                     }
                 }
             }
-        }
+        //}
     }
 }
 struct PickerView_Previews: PreviewProvider {
