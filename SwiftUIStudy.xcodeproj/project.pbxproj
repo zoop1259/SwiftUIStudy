@@ -20,6 +20,7 @@
 		C5648DED295AA2DE00322231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEC295AA2DE00322231 /* ContentView.swift */; };
 		C5648DEF295AA2E000322231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DEE295AA2E000322231 /* Assets.xcassets */; };
 		C5648DF2295AA2E000322231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DF1295AA2E000322231 /* Preview Assets.xcassets */; };
+		C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58A8450296485DE00FB6644 /* GuessTheFlag.swift */; };
 		C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CB9F295D84B10096E2E6 /* GradientView.swift */; };
 		C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA1295E89BF0096E2E6 /* Todos.swift */; };
 		C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA62960AF700096E2E6 /* ButtonView.swift */; };
@@ -40,6 +41,7 @@
 		C5648DEC295AA2DE00322231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5648DEE295AA2E000322231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5648DF1295AA2E000322231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C58A8450296485DE00FB6644 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		C5A8CB9F295D84B10096E2E6 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		C5A8CBA1295E89BF0096E2E6 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 		C5A8CBA62960AF700096E2E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				C539BD32295B23C30034C2B0 /* CurrencyView.swift */,
 				C539BD3B295BEA540034C2B0 /* SearchBarView */,
 				C5A8CBA1295E89BF0096E2E6 /* Todos.swift */,
+				C58A8450296485DE00FB6644 /* GuessTheFlag.swift */,
 			);
 			path = BasicApp;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */,
 				C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */,
 				C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */,
+				C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */,
 				C539BD33295B23C30034C2B0 /* CurrencyView.swift in Sources */,
 				C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */,
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,

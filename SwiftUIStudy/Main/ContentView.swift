@@ -42,6 +42,9 @@ struct ContentView: View {
                     NavigationLink(destination: Todos()) {
                         Text("간단한 TODO")
                     }
+                    NavigationLink(destination: GuessTheFlag()) {
+                        Text("GuessTheFlag")
+                    }
                 }
                 header : {
                     Text("Basic App") //자동으로 대문자전환.
