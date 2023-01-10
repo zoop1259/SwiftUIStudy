@@ -13,7 +13,6 @@
  3. 게임에 8개의 질문만 표시되도록 합니다. 이때 점수를 판단하는 최종 경고가 표시되고 게임을 다시 시작할 수 있습니다.
  */
 
-
 import SwiftUI
 
 struct GuessTheFlag: View {
@@ -92,6 +91,9 @@ struct GuessTheFlag: View {
         } message: {
             Text("현재 당신의 점수는 \(score)")
         }
+        //.navigationBarTitle("")
+        //.navigationBarHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
     }
     
     func flagTapped(_ number: Int) {

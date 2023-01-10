@@ -19,6 +19,9 @@ struct TextFieldView: View {
             //여긴 읽기만하니까 양방향x
             Text("Input : \(name)")
         }
+        //.navigationBarTitle("")
+        //.navigationBarHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

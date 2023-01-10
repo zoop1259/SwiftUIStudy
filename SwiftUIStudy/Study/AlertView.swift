@@ -19,18 +19,20 @@ struct AlertView: View {
                 newAlert = true
             }
             .alert("메세지", isPresented: $newAlert) {
-                Button("Ok") {
+                Button("Ok", role: .destructive) { //이렇게 타이틀 설정후 롤을 설정해줄 수 있다.
                     print("ok")
                 }
-                Button("Cancel") {
+                Button("Cancel", role: .cancel) {
                     print("cancel")
                 }
                 //버튼이 3개 이상인경우엔 세로로 배치된다.
             } message: {
-                Text("This is alert dialog sample")
+                Text("이렇게 아래에 메세지를 적어줄 수 있다.")
             }
         }
         .navigationTitle(Text("Alert"))
+        //.navigationBarTitle("")
+        //.navigationBarHidden(true) //이방법으로하면 뒤로 돌아갈 방법이 귀찮아진다.
         .navigationBarTitleDisplayMode(.inline)
     }
 }

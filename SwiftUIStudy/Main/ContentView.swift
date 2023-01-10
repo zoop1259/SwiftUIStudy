@@ -15,9 +15,6 @@ struct ContentView: View {
                     NavigationLink(destination: Text("basic")) {
                         Text("기본 네비게이션링크")
                     }
-                    NavigationLink(destination: CountingButton()) {
-                        Text("CountingButton")
-                    }
                     NavigationLink(destination: AlertView()) {
                         Text("Alert")
                     }
@@ -30,9 +27,27 @@ struct ContentView: View {
                     NavigationLink(destination: StackView()) {
                         Text("StackView")
                     }
+                    NavigationLink(destination: ColorAndFrameView()) {
+                        Text("ColorAndFrameView")
+                    }
+                    NavigationLink(destination: GradientView()) {
+                        Text("GradientView")
+                    }
+                    NavigationLink(destination: ButtonView()) {
+                        Text("ButtonView")
+                    }
+                    NavigationLink(destination: ViewAndModifiers()) {
+                        Text("ViewAndModifiers")
+                    }
                 })
                 
                 Section {
+                    NavigationLink(destination: ProfileView()) {
+                        Text("Simple프로필")
+                    }
+                    NavigationLink(destination: CountingButton()) {
+                        Text("CountingButton")
+                    }
                     NavigationLink(destination: CurrencyView()) {
                         Text("계산앱")
                     }
@@ -45,7 +60,9 @@ struct ContentView: View {
                     NavigationLink(destination: GuessTheFlag()) {
                         Text("GuessTheFlag")
                     }
+                    //Link("단순히 링크로 듸우기", destination: URL(string: "https://www.naver.com")!)
                 }
+                
                 header : {
                     Text("Basic App") //자동으로 대문자전환.
                 }

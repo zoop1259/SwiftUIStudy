@@ -26,50 +26,51 @@ struct CurrencyView: View {
     }
     
     var body: some View {
-        NavigationView {
-            Form {
-                Section(header: Text("통화"), content: {
-                    TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "EUR"))
-                        .keyboardType(.decimalPad)
-                    
-                    
-                    TextField("OldCodeAmount", value: $checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
-                })
+        Form {
+            Section(header: Text("통화"), content: {
+                TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "EUR"))
+                    .keyboardType(.decimalPad)
+                
+                
+                TextField("OldCodeAmount", value: $checkAmount, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+            })
 
-                Section(header: Text("분담 인원"), content: {
-                    Picker("Number of people", selection: $numberOfPeople) {
-                        ForEach(2 ..< 100) {
-                            Text("\($0) people")
-                        }
+            Section(header: Text("분담 인원"), content: {
+                Picker("Number of people", selection: $numberOfPeople) {
+                    ForEach(2 ..< 100) {
+                        Text("\($0) people")
                     }
-                })
-                
-                Section {
-                    Picker("Tip", selection: $tipPercentage) {
-                        ForEach(tipPercentages, id: \.self) {
-                            Text($0, format: .percent)
-                        }
-                    }
-                    .pickerStyle(.segmented) //이렇게하면 세먼트 스타일로 변경된다.
-                } header: {
-                    Text("이런식으로도 섹션의 헤더를 추가할 수 있다.")
                 }
-                
-                Section(header: Text("결과"), content: {
-                    Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
-                })
-                .navigationTitle("Split")
-                .toolbar {
-                    ToolbarItemGroup(placement: .keyboard) {
-                        Spacer()
-                        
-                        Button("Done") {
-                            amountIsFocused = false
-                        }
+            })
+            
+            Section {
+                Picker("Tip", selection: $tipPercentage) {
+                    ForEach(tipPercentages, id: \.self) {
+                        Text($0, format: .percent)
+                    }
+                }
+                .pickerStyle(.segmented) //이렇게하면 세먼트 스타일로 변경된다.
+            } header: {
+                Text("이런식으로도 섹션의 헤더를 추가할 수 있다.")
+            }
+            
+            Section(header: Text("결과"), content: {
+                Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+            })
+            .navigationTitle("Split")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    
+                    Button("Done") {
+                        amountIsFocused = false
                     }
                 }
             }
         }
+        //.navigationBarTitle("")
+        //.navigationBarHidden(true)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
