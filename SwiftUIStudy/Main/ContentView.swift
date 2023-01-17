@@ -7,13 +7,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
+    var body: some View { //
         NavigationView {
             Form {
+                
+                Section(header: Text("조금 다른 문법들")) {
+                    NavigationLink(destination: IF______________()) {
+                        Text("IF와 삼항연산자")
+                    }
+                }
+                
                 Section(header: Text("Base"), content: { //section의 헤더에 헤더 이름을 써주고 컨텐트안에 묶는다.
                     NavigationLink(destination: Text("basic")) {
                         Text("기본 네비게이션링크")
+                    }
+                    NavigationLink(destination: BasicAdaptableView()) {
+                        Text("BasicAdaptableView")
                     }
                     NavigationLink(destination: AlertView()) {
                         Text("Alert")
@@ -63,6 +73,7 @@ struct ContentView: View {
                     //Link("단순히 링크로 듸우기", destination: URL(string: "https://www.naver.com")!)
                 }
                 
+                //이렇게 섹션아래에 헤더로 해줘도 된다.
                 header : {
                     Text("Basic App") //자동으로 대문자전환.
                 }

@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct CountingButton: View {
-    @State var tapCount = 0 //State를 사용해주어야한다.
+//    @State var tapCount = 0 //State를 사용해주어야한다.
+    @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap") //유저디폴트 사용
     
     var body: some View {
         Button("탭한 횟수 : \(tapCount)") {
             //액션을 적어주면 됨
             self.tapCount += 1
+            //유저디폴트값 가져오기.
+            UserDefaults.standard.set(self.tapCount, forKey: "Tap")
         }
         .navigationTitle("TapTap")
         .navigationBarTitleDisplayMode(.inline)

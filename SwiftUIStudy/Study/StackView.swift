@@ -13,6 +13,8 @@ struct StackView: View {
         //Text("이렇게하면 미리보기화면은 두개로 나뉘어진다.")
         
         //Vstack도 10개의 자식을 가질 수 있다. 그 이상을 추가하려면 group으로 묶어라.
+        //그러므로 VStack은 하위 보기 수가 적을 때 사용하는것이 이상적이다.
+        //더 많은경우 LazyVStack같은것을 사용하거나 form등을 사용하는것이 좋다.
         VStack(spacing: 20) { //Spacing을 여기서 사용하면 내부의 각 컴포넌트마다 자동으로 spacing된다.
             Text("CMD 클릭을 통해 스택으로 묶어보자")
             Text("그럼 자동으로 Text는 스택안에 감싸진다.")
