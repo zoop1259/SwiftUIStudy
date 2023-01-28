@@ -36,3 +36,13 @@ let _ = Just(5)
     .sink { receivedValue in
         print("The end result was \(receivedValue)")
     }
+
+let a = ["data":["id","name"]]
+print(a)
+let b = a
+    .map{ $0 }
+print(b)
+let c = a.flatMap{$0}
+print(c)
+
+

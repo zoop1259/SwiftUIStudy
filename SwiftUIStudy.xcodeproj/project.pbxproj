@@ -41,6 +41,7 @@
 		C5DF4585296E1F5900EEB686 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF4584296E1F5900EEB686 /* ProfileView.swift */; };
 		C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2CE222975A641000E86AD /* IF삼항연산자.swift */; };
 		C5E2CE252976047D000E86AD /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2CE242976047D000E86AD /* testView.swift */; };
+		C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E2CE2B297D0D06000E86AD /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		C5E2CE222975A641000E86AD /* IF삼항연산자.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IF삼항연산자.swift"; sourceTree = "<group>"; };
 		C5E2CE242976047D000E86AD /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		C5E2CE26297632CE000E86AD /* CombineGram.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombineGram.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5E2CE2B297D0D06000E86AD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				C59F99B3296F428A003489AF /* StepperView.swift */,
 				C59F99B5296F5CBB003489AF /* DatePickerView.swift */,
 				C59F99B7296F67BC003489AF /* DateView.swift */,
+				C5E2CE2B297D0D06000E86AD /* SearchView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */,
 				C59F99A4296EFBD2003489AF /* JournalView.swift in Sources */,
 				C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */,
+				C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */,
 				C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */,
 				C539BD31295B1EFF0034C2B0 /* PickerView.swift in Sources */,
 				C539BD36295BE6320034C2B0 /* StackView.swift in Sources */,

@@ -19,35 +19,42 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                 }
                 
                 Section(header: Text("Base"), content: { //section의 헤더에 헤더 이름을 써주고 컨텐트안에 묶는다.
-                    NavigationLink(destination: Text("basic")) {
-                        Text("기본 네비게이션링크")
+                    Group {
+                        NavigationLink(destination: Text("basic")) {
+                            Text("기본 네비게이션링크")
+                        }
+                        NavigationLink(destination: BasicAdaptableView()) {
+                            Text("BasicAdaptableView")
+                        }
+                        NavigationLink(destination: AlertView()) {
+                            Text("Alert")
+                        }
+                        NavigationLink(destination: TextFieldView()) {
+                            Text("TextField")
+                        }
+                        NavigationLink(destination: PickerView()) {
+                            Text("PickerView")
+                        }
+                        NavigationLink(destination: StackView()) {
+                            Text("StackView")
+                        }
+                        NavigationLink(destination: ColorAndFrameView()) {
+                            Text("ColorAndFrameView")
+                        }
+                        NavigationLink(destination: GradientView()) {
+                            Text("GradientView")
+                        }
+                        NavigationLink(destination: ButtonView()) {
+                            Text("ButtonView")
+                        }
+                        NavigationLink(destination: ViewAndModifiers()) {
+                            Text("ViewAndModifiers")
+                        }
                     }
-                    NavigationLink(destination: BasicAdaptableView()) {
-                        Text("BasicAdaptableView")
-                    }
-                    NavigationLink(destination: AlertView()) {
-                        Text("Alert")
-                    }
-                    NavigationLink(destination: TextFieldView()) {
-                        Text("TextField")
-                    }
-                    NavigationLink(destination: PickerView()) {
-                        Text("PickerView")
-                    }
-                    NavigationLink(destination: StackView()) {
-                        Text("StackView")
-                    }
-                    NavigationLink(destination: ColorAndFrameView()) {
-                        Text("ColorAndFrameView")
-                    }
-                    NavigationLink(destination: GradientView()) {
-                        Text("GradientView")
-                    }
-                    NavigationLink(destination: ButtonView()) {
-                        Text("ButtonView")
-                    }
-                    NavigationLink(destination: ViewAndModifiers()) {
-                        Text("ViewAndModifiers")
+                    Group {
+                        NavigationLink(destination: AlertView()) {
+                            Text("SearchableView")
+                        }
                     }
                 })
                 
