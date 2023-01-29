@@ -55,6 +55,10 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                         NavigationLink(destination: AlertView()) {
                             Text("SearchableView")
                         }
+                        NavigationLink(destination: MVVMMV()) {
+                            Text("MVVM + Combine + TextField")
+                        }
+                        
                     }
                 })
                 

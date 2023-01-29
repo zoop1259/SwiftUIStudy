@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA029865C5A0020733A /* MVVMTFV.swift */; };
+		C51A6FA329865C880020733A /* MVVMVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA229865C880020733A /* MVVMVM.swift */; };
+		C51A6FA529865D140020733A /* MVVMM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA429865D140020733A /* MVVMM.swift */; };
+		C51A6FA729865DF90020733A /* MVVMDV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA629865DF90020733A /* MVVMDV.swift */; };
+		C51A6FA929865E5D0020733A /* MVVMMV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA829865E5D0020733A /* MVVMMV.swift */; };
 		C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD28295AB4160034C2B0 /* AlertView.swift */; };
 		C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD2C295AB8D70034C2B0 /* CountingButton.swift */; };
 		C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD2E295AE9C10034C2B0 /* TextFieldView.swift */; };
@@ -45,6 +50,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C51A6FA029865C5A0020733A /* MVVMTFV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTFV.swift; sourceTree = "<group>"; };
+		C51A6FA229865C880020733A /* MVVMVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMVM.swift; sourceTree = "<group>"; };
+		C51A6FA429865D140020733A /* MVVMM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMM.swift; sourceTree = "<group>"; };
+		C51A6FA629865DF90020733A /* MVVMDV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDV.swift; sourceTree = "<group>"; };
+		C51A6FA829865E5D0020733A /* MVVMMV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMMV.swift; sourceTree = "<group>"; };
 		C539BD28295AB4160034C2B0 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		C539BD2C295AB8D70034C2B0 /* CountingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingButton.swift; sourceTree = "<group>"; };
 		C539BD2E295AE9C10034C2B0 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -95,6 +105,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C51A6F9E29865C0B0020733A /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C51A6F9F29865C1E0020733A /* TextField */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		C51A6F9F29865C1E0020733A /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C51A6FA029865C5A0020733A /* MVVMTFV.swift */,
+				C51A6FA229865C880020733A /* MVVMVM.swift */,
+				C51A6FA429865D140020733A /* MVVMM.swift */,
+				C51A6FA629865DF90020733A /* MVVMDV.swift */,
+				C51A6FA829865E5D0020733A /* MVVMMV.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		C539BD2A295AB41F0034C2B0 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +136,7 @@
 		C539BD2B295AB42C0034C2B0 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				C51A6F9E29865C0B0020733A /* MVVM */,
 				C59F99AC296EFFBA003489AF /* BasicAdaptableView.swift */,
 				C539BD28295AB4160034C2B0 /* AlertView.swift */,
 				C539BD2E295AE9C10034C2B0 /* TextFieldView.swift */,
@@ -316,13 +347,17 @@
 				C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */,
 				C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */,
 				C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */,
+				C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */,
 				C539BD31295B1EFF0034C2B0 /* PickerView.swift in Sources */,
 				C539BD36295BE6320034C2B0 /* StackView.swift in Sources */,
 				C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */,
+				C51A6FA929865E5D0020733A /* MVVMMV.swift in Sources */,
 				C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */,
 				C59F99B8296F67BC003489AF /* DateView.swift in Sources */,
 				C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */,
 				C59F99B1296F3946003489AF /* CustomContainerView.swift in Sources */,
+				C51A6FA729865DF90020733A /* MVVMDV.swift in Sources */,
+				C51A6FA329865C880020733A /* MVVMVM.swift in Sources */,
 				C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */,
 				C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */,
 				C5DF4585296E1F5900EEB686 /* ProfileView.swift in Sources */,
@@ -331,6 +366,7 @@
 				C539BD33295B23C30034C2B0 /* CurrencyView.swift in Sources */,
 				C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */,
 				C59F99A9296EFC89003489AF /* AlternativeContentView.swift in Sources */,
+				C51A6FA529865D140020733A /* MVVMM.swift in Sources */,
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,
 				C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */,
 				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
