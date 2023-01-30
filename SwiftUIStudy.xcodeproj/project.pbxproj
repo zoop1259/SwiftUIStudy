@@ -40,6 +40,10 @@
 		C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CB9F295D84B10096E2E6 /* GradientView.swift */; };
 		C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA1295E89BF0096E2E6 /* Todos.swift */; };
 		C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA62960AF700096E2E6 /* ButtonView.swift */; };
+		C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */; };
+		C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */; };
+		C5D9C9EE2987BC3600AF757C /* APICallsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */; };
+		C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EF2987BED600AF757C /* APICallsImageView.swift */; };
 		C5DF457F296E1C6400EEB686 /* MyNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF457E296E1C6400EEB686 /* MyNameView.swift */; };
 		C5DF4581296E1CA600EEB686 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF4580296E1CA600EEB686 /* MyImageView.swift */; };
 		C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF4582296E1D7C00EEB686 /* MapView.swift */; };
@@ -84,6 +88,10 @@
 		C5A8CB9F295D84B10096E2E6 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		C5A8CBA1295E89BF0096E2E6 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 		C5A8CBA62960AF700096E2E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsPracticeView.swift; sourceTree = "<group>"; };
+		C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsViewModel.swift; sourceTree = "<group>"; };
+		C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsModel.swift; sourceTree = "<group>"; };
+		C5D9C9EF2987BED600AF757C /* APICallsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsImageView.swift; sourceTree = "<group>"; };
 		C5DF457E296E1C6400EEB686 /* MyNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNameView.swift; sourceTree = "<group>"; };
 		C5DF4580296E1CA600EEB686 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
 		C5DF4582296E1D7C00EEB686 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -159,6 +167,7 @@
 		C539BD34295BE36F0034C2B0 /* BasicApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5D9C9E82987BAF600AF757C /* APICalls */,
 				C5DF457D296E1C5300EEB686 /* ProfileView */,
 				C539BD2C295AB8D70034C2B0 /* CountingButton.swift */,
 				C539BD32295B23C30034C2B0 /* CurrencyView.swift */,
@@ -242,6 +251,17 @@
 			children = (
 			);
 			path = BetterRest;
+			sourceTree = "<group>";
+		};
+		C5D9C9E82987BAF600AF757C /* APICalls */ = {
+			isa = PBXGroup;
+			children = (
+				C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */,
+				C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */,
+				C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */,
+				C5D9C9EF2987BED600AF757C /* APICallsImageView.swift */,
+			);
+			path = APICalls;
 			sourceTree = "<group>";
 		};
 		C5DF457D296E1C5300EEB686 /* ProfileView */ = {
@@ -339,6 +359,7 @@
 				C59F99A2296EFBC9003489AF /* SettingsView.swift in Sources */,
 				C59F99B6296F5CBB003489AF /* DatePickerView.swift in Sources */,
 				C58A84532964A64300FB6644 /* ViewAndModifiers.swift in Sources */,
+				C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */,
 				C5E2CE252976047D000E86AD /* testView.swift in Sources */,
 				C5DF4581296E1CA600EEB686 /* MyImageView.swift in Sources */,
 				C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */,
@@ -356,6 +377,7 @@
 				C59F99B8296F67BC003489AF /* DateView.swift in Sources */,
 				C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */,
 				C59F99B1296F3946003489AF /* CustomContainerView.swift in Sources */,
+				C5D9C9EE2987BC3600AF757C /* APICallsModel.swift in Sources */,
 				C51A6FA729865DF90020733A /* MVVMDV.swift in Sources */,
 				C51A6FA329865C880020733A /* MVVMVM.swift in Sources */,
 				C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */,
@@ -368,11 +390,13 @@
 				C59F99A9296EFC89003489AF /* AlternativeContentView.swift in Sources */,
 				C51A6FA529865D140020733A /* MVVMM.swift in Sources */,
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,
+				C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */,
 				C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */,
 				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
 				C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */,
 				C59F99A7296EFC64003489AF /* AlternativeScene.swift in Sources */,
 				C5DF457F296E1C6400EEB686 /* MyNameView.swift in Sources */,
+				C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
