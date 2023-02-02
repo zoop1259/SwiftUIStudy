@@ -21,6 +21,11 @@
 		C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD37295BE81C0034C2B0 /* ColorAndFrameView.swift */; };
 		C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD39295BEA290034C2B0 /* SearchBarView.swift */; };
 		C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */; };
+		C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B6E298B7E54001010D6 /* UIGram.swift */; };
+		C5592B71298B8062001010D6 /* JMyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B70298B8062001010D6 /* JMyWebview.swift */; };
+		C5592B74298B83A0001010D6 /* JWebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B73298B83A0001010D6 /* JWebContentView.swift */; };
+		C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B76298B85B6001010D6 /* JTextContentView.swift */; };
+		C5592B79298B9675001010D6 /* JGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B78298B9675001010D6 /* JGeometryReader.swift */; };
 		C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */; };
 		C5648DED295AA2DE00322231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEC295AA2DE00322231 /* ContentView.swift */; };
 		C5648DEF295AA2E000322231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DEE295AA2E000322231 /* Assets.xcassets */; };
@@ -44,6 +49,9 @@
 		C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */; };
 		C5D9C9EE2987BC3600AF757C /* APICallsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */; };
 		C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EF2987BED600AF757C /* APICallsImageView.swift */; };
+		C5D9CA3D2988C0E800AF757C /* JContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9CA3C2988C0E800AF757C /* JContentView.swift */; };
+		C5D9CA3F2988C24B00AF757C /* JMyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9CA3E2988C24B00AF757C /* JMyVStackView.swift */; };
+		C5D9CA412988C8B100AF757C /* JMyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9CA402988C8B100AF757C /* JMyTextView.swift */; };
 		C5DF457F296E1C6400EEB686 /* MyNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF457E296E1C6400EEB686 /* MyNameView.swift */; };
 		C5DF4581296E1CA600EEB686 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF4580296E1CA600EEB686 /* MyImageView.swift */; };
 		C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF4582296E1D7C00EEB686 /* MapView.swift */; };
@@ -68,6 +76,12 @@
 		C539BD37295BE81C0034C2B0 /* ColorAndFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndFrameView.swift; sourceTree = "<group>"; };
 		C539BD39295BEA290034C2B0 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiProvider.swift; sourceTree = "<group>"; };
+		C5592B6E298B7E54001010D6 /* UIGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGram.swift; sourceTree = "<group>"; };
+		C5592B70298B8062001010D6 /* JMyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMyWebview.swift; sourceTree = "<group>"; };
+		C5592B72298B8141001010D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C5592B73298B83A0001010D6 /* JWebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWebContentView.swift; sourceTree = "<group>"; };
+		C5592B76298B85B6001010D6 /* JTextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTextContentView.swift; sourceTree = "<group>"; };
+		C5592B78298B9675001010D6 /* JGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGeometryReader.swift; sourceTree = "<group>"; };
 		C5648DE7295AA2DE00322231 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		C5648DEC295AA2DE00322231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +106,9 @@
 		C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsViewModel.swift; sourceTree = "<group>"; };
 		C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsModel.swift; sourceTree = "<group>"; };
 		C5D9C9EF2987BED600AF757C /* APICallsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsImageView.swift; sourceTree = "<group>"; };
+		C5D9CA3C2988C0E800AF757C /* JContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JContentView.swift; sourceTree = "<group>"; };
+		C5D9CA3E2988C24B00AF757C /* JMyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMyVStackView.swift; sourceTree = "<group>"; };
+		C5D9CA402988C8B100AF757C /* JMyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMyTextView.swift; sourceTree = "<group>"; };
 		C5DF457E296E1C6400EEB686 /* MyNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNameView.swift; sourceTree = "<group>"; };
 		C5DF4580296E1CA600EEB686 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
 		C5DF4582296E1D7C00EEB686 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -188,6 +205,15 @@
 			path = SearchBarView;
 			sourceTree = "<group>";
 		};
+		C5592B75298B85A3001010D6 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				C5592B76298B85B6001010D6 /* JTextContentView.swift */,
+				C5592B78298B9675001010D6 /* JGeometryReader.swift */,
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
 		C5648DDE295AA2DE00322231 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +233,8 @@
 		C5648DE9295AA2DE00322231 /* SwiftUIStudy */ = {
 			isa = PBXGroup;
 			children = (
+				C5592B72298B8141001010D6 /* Info.plist */,
+				C5D9CA392988C0AF00AF757C /* JeffJoungFollowed */,
 				C5E2CE212975A5DB000E86AD /* Grammar */,
 				C539BD2A295AB41F0034C2B0 /* Main */,
 				C539BD2B295AB42C0034C2B0 /* Study */,
@@ -264,6 +292,35 @@
 			path = APICalls;
 			sourceTree = "<group>";
 		};
+		C5D9CA392988C0AF00AF757C /* JeffJoungFollowed */ = {
+			isa = PBXGroup;
+			children = (
+				C5592B75298B85A3001010D6 /* Chapter3 */,
+				C5D9CA532988DF9700AF757C /* Chapter2 */,
+				C5D9CA522988DF8D00AF757C /* Chapter1 */,
+			);
+			path = JeffJoungFollowed;
+			sourceTree = "<group>";
+		};
+		C5D9CA522988DF8D00AF757C /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				C5D9CA3C2988C0E800AF757C /* JContentView.swift */,
+				C5D9CA3E2988C24B00AF757C /* JMyVStackView.swift */,
+				C5D9CA402988C8B100AF757C /* JMyTextView.swift */,
+			);
+			path = Chapter1;
+			sourceTree = "<group>";
+		};
+		C5D9CA532988DF9700AF757C /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				C5592B70298B8062001010D6 /* JMyWebview.swift */,
+				C5592B73298B83A0001010D6 /* JWebContentView.swift */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
 		C5DF457D296E1C5300EEB686 /* ProfileView */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +338,7 @@
 				C5E2CE222975A641000E86AD /* IF삼항연산자.swift */,
 				C5E2CE242976047D000E86AD /* testView.swift */,
 				C5E2CE26297632CE000E86AD /* CombineGram.playground */,
+				C5592B6E298B7E54001010D6 /* UIGram.swift */,
 			);
 			path = Grammar;
 			sourceTree = "<group>";
@@ -369,6 +427,9 @@
 				C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */,
 				C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */,
 				C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */,
+				C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */,
+				C5592B79298B9675001010D6 /* JGeometryReader.swift in Sources */,
+				C5592B74298B83A0001010D6 /* JWebContentView.swift in Sources */,
 				C539BD31295B1EFF0034C2B0 /* PickerView.swift in Sources */,
 				C539BD36295BE6320034C2B0 /* StackView.swift in Sources */,
 				C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */,
@@ -383,9 +444,13 @@
 				C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */,
 				C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */,
 				C5DF4585296E1F5900EEB686 /* ProfileView.swift in Sources */,
+				C5D9CA3D2988C0E800AF757C /* JContentView.swift in Sources */,
 				C59F99AD296EFFBA003489AF /* BasicAdaptableView.swift in Sources */,
 				C59F99B4296F428A003489AF /* StepperView.swift in Sources */,
 				C539BD33295B23C30034C2B0 /* CurrencyView.swift in Sources */,
+				C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */,
+				C5D9CA412988C8B100AF757C /* JMyTextView.swift in Sources */,
+				C5592B71298B8062001010D6 /* JMyWebview.swift in Sources */,
 				C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */,
 				C59F99A9296EFC89003489AF /* AlternativeContentView.swift in Sources */,
 				C51A6FA529865D140020733A /* MVVMM.swift in Sources */,
@@ -395,6 +460,7 @@
 				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
 				C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */,
 				C59F99A7296EFC64003489AF /* AlternativeScene.swift in Sources */,
+				C5D9CA3F2988C24B00AF757C /* JMyVStackView.swift in Sources */,
 				C5DF457F296E1C6400EEB686 /* MyNameView.swift in Sources */,
 				C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */,
 			);
@@ -528,6 +594,7 @@
 				DEVELOPMENT_TEAM = YULBA58FUP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -557,6 +624,7 @@
 				DEVELOPMENT_TEAM = YULBA58FUP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

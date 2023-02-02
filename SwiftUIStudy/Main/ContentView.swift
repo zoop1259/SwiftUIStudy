@@ -91,6 +91,16 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                 header : {
                     Text("Basic App") //자동으로 대문자전환.
                 }
+                
+                Section(header: Text("정대리 따라하기") ){
+                    NavigationLink(destination: JContentView()) {
+                        Text("Chapter1")
+                    }
+                    NavigationLink(destination: JWebContentView()) {
+                        Text("Chapter2")
+                    }
+                }
+
             }
             .navigationBarTitle("List")
         }

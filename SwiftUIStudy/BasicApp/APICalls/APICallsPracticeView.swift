@@ -15,7 +15,6 @@ struct APICallsPracticeView: View {
             ForEach(viewModel.courses, id: \.self) { course in
                 HStack {
                     APICallsImageView(urlString: course.image)
-                    
                     Text(course.name)
                         .bold()
                 }

@@ -30,6 +30,7 @@ struct GradientView: View {
         
         //앵귤러를 사용하면 다양한 색상을 사용할 수 있다.
         AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]), center: .center)
+            .ignoresSafeArea() //여기선 제대로 동작하는데...흠...
     }
 }
 
