@@ -26,6 +26,10 @@
 		C5592B74298B83A0001010D6 /* JWebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B73298B83A0001010D6 /* JWebContentView.swift */; };
 		C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B76298B85B6001010D6 /* JTextContentView.swift */; };
 		C5592B79298B9675001010D6 /* JGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B78298B9675001010D6 /* JGeometryReader.swift */; };
+		C5592B7C298BBD1F001010D6 /* JTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B7B298BBD1F001010D6 /* JTapView.swift */; };
+		C5592B7E298BBE71001010D6 /* JTabViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B7D298BBE71001010D6 /* JTabViewColor.swift */; };
+		C5592B80298BCCEB001010D6 /* QRReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B7F298BCCEB001010D6 /* QRReaderView.swift */; };
+		C5592B83298BCD2D001010D6 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C5592B82298BCD2D001010D6 /* CodeScanner */; };
 		C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */; };
 		C5648DED295AA2DE00322231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEC295AA2DE00322231 /* ContentView.swift */; };
 		C5648DEF295AA2E000322231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DEE295AA2E000322231 /* Assets.xcassets */; };
@@ -45,6 +49,10 @@
 		C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CB9F295D84B10096E2E6 /* GradientView.swift */; };
 		C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA1295E89BF0096E2E6 /* Todos.swift */; };
 		C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA62960AF700096E2E6 /* ButtonView.swift */; };
+		C5B628A1298CA75100C96C9C /* VisionKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A0298CA75100C96C9C /* VisionKitView.swift */; };
+		C5B628A3298CA82F00C96C9C /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A2298CA82F00C96C9C /* ScanData.swift */; };
+		C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A4298CA91700C96C9C /* ScannerView.swift */; };
+		C5B628A7298CAA6300C96C9C /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */; };
 		C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */; };
 		C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */; };
 		C5D9C9EE2987BC3600AF757C /* APICallsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */; };
@@ -82,6 +90,9 @@
 		C5592B73298B83A0001010D6 /* JWebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWebContentView.swift; sourceTree = "<group>"; };
 		C5592B76298B85B6001010D6 /* JTextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTextContentView.swift; sourceTree = "<group>"; };
 		C5592B78298B9675001010D6 /* JGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGeometryReader.swift; sourceTree = "<group>"; };
+		C5592B7B298BBD1F001010D6 /* JTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTapView.swift; sourceTree = "<group>"; };
+		C5592B7D298BBE71001010D6 /* JTabViewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTabViewColor.swift; sourceTree = "<group>"; };
+		C5592B7F298BCCEB001010D6 /* QRReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderView.swift; sourceTree = "<group>"; };
 		C5648DE7295AA2DE00322231 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		C5648DEC295AA2DE00322231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +113,10 @@
 		C5A8CB9F295D84B10096E2E6 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		C5A8CBA1295E89BF0096E2E6 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 		C5A8CBA62960AF700096E2E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C5B628A0298CA75100C96C9C /* VisionKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitView.swift; sourceTree = "<group>"; };
+		C5B628A2298CA82F00C96C9C /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		C5B628A4298CA91700C96C9C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 		C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsPracticeView.swift; sourceTree = "<group>"; };
 		C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsViewModel.swift; sourceTree = "<group>"; };
 		C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsModel.swift; sourceTree = "<group>"; };
@@ -124,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5592B83298BCD2D001010D6 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +200,7 @@
 		C539BD34295BE36F0034C2B0 /* BasicApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5B6289F298CA73E00C96C9C /* Scan-Ocr */,
 				C5D9C9E82987BAF600AF757C /* APICalls */,
 				C5DF457D296E1C5300EEB686 /* ProfileView */,
 				C539BD2C295AB8D70034C2B0 /* CountingButton.swift */,
@@ -192,6 +209,7 @@
 				C5A8CBA1295E89BF0096E2E6 /* Todos.swift */,
 				C58A8450296485DE00FB6644 /* GuessTheFlag.swift */,
 				C59F99B2296F4264003489AF /* BetterRest */,
+				C5592B7F298BCCEB001010D6 /* QRReaderView.swift */,
 			);
 			path = BasicApp;
 			sourceTree = "<group>";
@@ -212,6 +230,15 @@
 				C5592B78298B9675001010D6 /* JGeometryReader.swift */,
 			);
 			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		C5592B7A298BBD11001010D6 /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+				C5592B7B298BBD1F001010D6 /* JTapView.swift */,
+				C5592B7D298BBE71001010D6 /* JTabViewColor.swift */,
+			);
+			path = Chapter4;
 			sourceTree = "<group>";
 		};
 		C5648DDE295AA2DE00322231 = {
@@ -281,6 +308,17 @@
 			path = BetterRest;
 			sourceTree = "<group>";
 		};
+		C5B6289F298CA73E00C96C9C /* Scan-Ocr */ = {
+			isa = PBXGroup;
+			children = (
+				C5B628A0298CA75100C96C9C /* VisionKitView.swift */,
+				C5B628A2298CA82F00C96C9C /* ScanData.swift */,
+				C5B628A4298CA91700C96C9C /* ScannerView.swift */,
+				C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */,
+			);
+			path = "Scan-Ocr";
+			sourceTree = "<group>";
+		};
 		C5D9C9E82987BAF600AF757C /* APICalls */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +333,7 @@
 		C5D9CA392988C0AF00AF757C /* JeffJoungFollowed */ = {
 			isa = PBXGroup;
 			children = (
+				C5592B7A298BBD11001010D6 /* Chapter4 */,
 				C5592B75298B85A3001010D6 /* Chapter3 */,
 				C5D9CA532988DF9700AF757C /* Chapter2 */,
 				C5D9CA522988DF8D00AF757C /* Chapter1 */,
@@ -359,6 +398,9 @@
 			dependencies = (
 			);
 			name = SwiftUIStudy;
+			packageProductDependencies = (
+				C5592B82298BCD2D001010D6 /* CodeScanner */,
+			);
 			productName = SwiftUIStudy;
 			productReference = C5648DE7295AA2DE00322231 /* SwiftUIStudy.app */;
 			productType = "com.apple.product-type.application";
@@ -387,6 +429,9 @@
 				Base,
 			);
 			mainGroup = C5648DDE295AA2DE00322231;
+			packageReferences = (
+				C5592B81298BCD2D001010D6 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = C5648DE8295AA2DE00322231 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -414,7 +459,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5648DED295AA2DE00322231 /* ContentView.swift in Sources */,
+				C5592B7E298BBE71001010D6 /* JTabViewColor.swift in Sources */,
 				C59F99A2296EFBC9003489AF /* SettingsView.swift in Sources */,
+				C5592B7C298BBD1F001010D6 /* JTapView.swift in Sources */,
+				C5B628A3298CA82F00C96C9C /* ScanData.swift in Sources */,
 				C59F99B6296F5CBB003489AF /* DatePickerView.swift in Sources */,
 				C58A84532964A64300FB6644 /* ViewAndModifiers.swift in Sources */,
 				C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */,
@@ -438,11 +486,13 @@
 				C59F99B8296F67BC003489AF /* DateView.swift in Sources */,
 				C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */,
 				C59F99B1296F3946003489AF /* CustomContainerView.swift in Sources */,
+				C5B628A7298CAA6300C96C9C /* TextRecognizer.swift in Sources */,
 				C5D9C9EE2987BC3600AF757C /* APICallsModel.swift in Sources */,
 				C51A6FA729865DF90020733A /* MVVMDV.swift in Sources */,
 				C51A6FA329865C880020733A /* MVVMVM.swift in Sources */,
 				C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */,
 				C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */,
+				C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */,
 				C5DF4585296E1F5900EEB686 /* ProfileView.swift in Sources */,
 				C5D9CA3D2988C0E800AF757C /* JContentView.swift in Sources */,
 				C59F99AD296EFFBA003489AF /* BasicAdaptableView.swift in Sources */,
@@ -456,6 +506,8 @@
 				C51A6FA529865D140020733A /* MVVMM.swift in Sources */,
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,
 				C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */,
+				C5B628A1298CA75100C96C9C /* VisionKitView.swift in Sources */,
+				C5592B80298BCCEB001010D6 /* QRReaderView.swift in Sources */,
 				C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */,
 				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
 				C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */,
@@ -595,6 +647,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 스캔을 위한 카메라 권한";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -625,6 +678,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 스캔을 위한 카메라 권한";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -665,6 +719,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5592B81298BCD2D001010D6 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5592B82298BCD2D001010D6 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5592B81298BCD2D001010D6 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5648DDF295AA2DE00322231 /* Project object */;
 }
