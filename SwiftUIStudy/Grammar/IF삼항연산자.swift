@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//엥 ㅋㅋ 스유에선 _____로 되는구나
+//스유에선 _____로 되는구나
 struct IF______________: View {
     @State private var useRedText = false
     

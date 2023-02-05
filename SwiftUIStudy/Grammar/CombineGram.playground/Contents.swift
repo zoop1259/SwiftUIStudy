@@ -3,7 +3,7 @@ import Combine
 
 Just((0...5))
     .sink { value in
-        print(value) //그저 Just안의 값이 방출됨. 처음엔 0부터 5까지 방출되는줄 ㅋㅋ
+        print(value) //그저 Just안의 값이 방출됨. 0부터5가 방출되는게 아님.
     }
 
 

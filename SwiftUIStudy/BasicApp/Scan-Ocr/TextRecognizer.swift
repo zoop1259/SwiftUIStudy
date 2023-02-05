@@ -16,6 +16,10 @@ final class TextRecognizer {
         self.cameraScan = cameraScan
     }
     
+    let textDataType: DataScannerViewController.RecognizedDataType =
+        .text(languages: ["en-US", "fr-FR", "de-DE", "ko-KR"])
+    
+    
     private let queue = DispatchQueue(label: "scan-codes", qos: .default, attributes: [], autoreleaseFrequency: .workItem)
     
     func recognizeText(withCompletionHandler completionHandler: @escaping ([String])-> Void) {
@@ -23,7 +27,9 @@ final class TextRecognizer {
             let images = (0..<self.cameraScan.pageCount).compactMap( {
                 self.cameraScan.imageOfPage(at: $0).cgImage
             })
+            //Vision 인식 텍스트 요청 기능
             let imagesAndRequests = images.map({(image: $0, request: VNRecognizeTextRequest())})
+            
             let textPerPage = imagesAndRequests.map{image, request -> String in
                 let handler = VNImageRequestHandler(cgImage: image, options: [:])
                 do {
@@ -41,3 +47,11 @@ final class TextRecognizer {
         }
     }
 }
+/*
+ 
+https://developer.apple.com/documentation/visionkit/scanning_data_with_the_camera >> 더 많은 언어 인식.
+
+ let textDataType: DataScannerViewController.RecognizedDataType =
+     .text(languages: ["en-US", "fr-FR", "de-DE"])
+ )
+ */

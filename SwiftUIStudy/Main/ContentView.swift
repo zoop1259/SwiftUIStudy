@@ -52,11 +52,17 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                         }
                     }
                     Group {
-                        NavigationLink(destination: AlertView()) {
+                        NavigationLink(destination: SearchView()) {
                             Text("SearchableView")
                         }
                         NavigationLink(destination: MVVMMV()) {
                             Text("MVVM + Combine + TextField")
+                        }
+                        NavigationLink(destination: OContentView()) {
+                            Text("Observable 사용해보기.")
+                        }
+                        NavigationLink(destination: SRandomNumberView()) {
+                            Text("StateObject 실험.")
                         }
                         
                     }

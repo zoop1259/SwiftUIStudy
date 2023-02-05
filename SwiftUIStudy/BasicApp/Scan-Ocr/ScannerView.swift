@@ -34,10 +34,11 @@ struct ScannerView: UIViewControllerRepresentable {
             recognizer.recognizeText(withCompletionHandler: completionHandler)
         }
         
+        //실패했을떄 nil값
         func documentCameraViewController(_ controller: VNDocumentCameraViewController, didFailWithError error: Error) {
             completionHandler(nil)
         }
-        
+        //취소했을떄 nil값
         func documentCameraViewControllerDidCancel(_ controller: VNDocumentCameraViewController) {
             completionHandler(nil)
         }

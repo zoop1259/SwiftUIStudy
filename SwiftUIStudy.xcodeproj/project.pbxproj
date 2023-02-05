@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C517E626298EC6160048C920 /* OUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E625298EC6160048C920 /* OUser.swift */; };
+		C517E628298EC6270048C920 /* OContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E627298EC6270048C920 /* OContentView.swift */; };
+		C517E62A298EC6440048C920 /* OAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E629298EC6440048C920 /* OAnotherView.swift */; };
+		C517E62C298EC83E0048C920 /* OUserWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E62B298EC83E0048C920 /* OUserWrapper.swift */; };
+		C517E647298F8BC30048C920 /* SContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E646298F8BC30048C920 /* SContentView.swift */; };
+		C517E649298F8BD70048C920 /* SViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E648298F8BD70048C920 /* SViewModel.swift */; };
+		C517E64B298F8D930048C920 /* SRandomNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E64A298F8D930048C920 /* SRandomNumberView.swift */; };
 		C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA029865C5A0020733A /* MVVMTFV.swift */; };
 		C51A6FA329865C880020733A /* MVVMVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA229865C880020733A /* MVVMVM.swift */; };
 		C51A6FA529865D140020733A /* MVVMM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA429865D140020733A /* MVVMM.swift */; };
@@ -53,6 +60,7 @@
 		C5B628A3298CA82F00C96C9C /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A2298CA82F00C96C9C /* ScanData.swift */; };
 		C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A4298CA91700C96C9C /* ScannerView.swift */; };
 		C5B628A7298CAA6300C96C9C /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */; };
+		C5B628A9298CFBA600C96C9C /* PhotosUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */; };
 		C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */; };
 		C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */; };
 		C5D9C9EE2987BC3600AF757C /* APICallsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */; };
@@ -70,6 +78,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C517E625298EC6160048C920 /* OUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OUser.swift; sourceTree = "<group>"; };
+		C517E627298EC6270048C920 /* OContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OContentView.swift; sourceTree = "<group>"; };
+		C517E629298EC6440048C920 /* OAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAnotherView.swift; sourceTree = "<group>"; };
+		C517E62B298EC83E0048C920 /* OUserWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OUserWrapper.swift; sourceTree = "<group>"; };
+		C517E646298F8BC30048C920 /* SContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SContentView.swift; sourceTree = "<group>"; };
+		C517E648298F8BD70048C920 /* SViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SViewModel.swift; sourceTree = "<group>"; };
+		C517E64A298F8D930048C920 /* SRandomNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRandomNumberView.swift; sourceTree = "<group>"; };
 		C51A6FA029865C5A0020733A /* MVVMTFV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTFV.swift; sourceTree = "<group>"; };
 		C51A6FA229865C880020733A /* MVVMVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMVM.swift; sourceTree = "<group>"; };
 		C51A6FA429865D140020733A /* MVVMM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMM.swift; sourceTree = "<group>"; };
@@ -117,6 +132,7 @@
 		C5B628A2298CA82F00C96C9C /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
 		C5B628A4298CA91700C96C9C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIView.swift; sourceTree = "<group>"; };
 		C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsPracticeView.swift; sourceTree = "<group>"; };
 		C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsViewModel.swift; sourceTree = "<group>"; };
 		C5D9C9ED2987BC3600AF757C /* APICallsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsModel.swift; sourceTree = "<group>"; };
@@ -146,6 +162,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C517E624298EC6020048C920 /* ObservedObject */ = {
+			isa = PBXGroup;
+			children = (
+				C517E625298EC6160048C920 /* OUser.swift */,
+				C517E627298EC6270048C920 /* OContentView.swift */,
+				C517E629298EC6440048C920 /* OAnotherView.swift */,
+				C517E62B298EC83E0048C920 /* OUserWrapper.swift */,
+			);
+			path = ObservedObject;
+			sourceTree = "<group>";
+		};
+		C517E645298F8B660048C920 /* StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				C517E646298F8BC30048C920 /* SContentView.swift */,
+				C517E648298F8BD70048C920 /* SViewModel.swift */,
+				C517E64A298F8D930048C920 /* SRandomNumberView.swift */,
+			);
+			path = StateObject;
+			sourceTree = "<group>";
+		};
 		C51A6F9E29865C0B0020733A /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +214,8 @@
 		C539BD2B295AB42C0034C2B0 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				C517E645298F8B660048C920 /* StateObject */,
+				C517E624298EC6020048C920 /* ObservedObject */,
 				C51A6F9E29865C0B0020733A /* MVVM */,
 				C59F99AC296EFFBA003489AF /* BasicAdaptableView.swift */,
 				C539BD28295AB4160034C2B0 /* AlertView.swift */,
@@ -193,6 +232,7 @@
 				C59F99B5296F5CBB003489AF /* DatePickerView.swift */,
 				C59F99B7296F67BC003489AF /* DateView.swift */,
 				C5E2CE2B297D0D06000E86AD /* SearchView.swift */,
+				C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -467,6 +507,8 @@
 				C58A84532964A64300FB6644 /* ViewAndModifiers.swift in Sources */,
 				C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */,
 				C5E2CE252976047D000E86AD /* testView.swift in Sources */,
+				C517E647298F8BC30048C920 /* SContentView.swift in Sources */,
+				C517E649298F8BD70048C920 /* SViewModel.swift in Sources */,
 				C5DF4581296E1CA600EEB686 /* MyImageView.swift in Sources */,
 				C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */,
 				C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */,
@@ -474,6 +516,7 @@
 				C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */,
 				C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */,
 				C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */,
+				C517E62A298EC6440048C920 /* OAnotherView.swift in Sources */,
 				C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */,
 				C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */,
 				C5592B79298B9675001010D6 /* JGeometryReader.swift in Sources */,
@@ -492,10 +535,13 @@
 				C51A6FA329865C880020733A /* MVVMVM.swift in Sources */,
 				C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */,
 				C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */,
+				C517E64B298F8D930048C920 /* SRandomNumberView.swift in Sources */,
 				C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */,
+				C517E62C298EC83E0048C920 /* OUserWrapper.swift in Sources */,
 				C5DF4585296E1F5900EEB686 /* ProfileView.swift in Sources */,
 				C5D9CA3D2988C0E800AF757C /* JContentView.swift in Sources */,
 				C59F99AD296EFFBA003489AF /* BasicAdaptableView.swift in Sources */,
+				C517E626298EC6160048C920 /* OUser.swift in Sources */,
 				C59F99B4296F428A003489AF /* StepperView.swift in Sources */,
 				C539BD33295B23C30034C2B0 /* CurrencyView.swift in Sources */,
 				C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */,
@@ -507,6 +553,7 @@
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,
 				C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */,
 				C5B628A1298CA75100C96C9C /* VisionKitView.swift in Sources */,
+				C5B628A9298CFBA600C96C9C /* PhotosUIView.swift in Sources */,
 				C5592B80298BCCEB001010D6 /* QRReaderView.swift in Sources */,
 				C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */,
 				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
@@ -514,6 +561,7 @@
 				C59F99A7296EFC64003489AF /* AlternativeScene.swift in Sources */,
 				C5D9CA3F2988C24B00AF757C /* JMyVStackView.swift in Sources */,
 				C5DF457F296E1C6400EEB686 /* MyNameView.swift in Sources */,
+				C517E628298EC6270048C920 /* OContentView.swift in Sources */,
 				C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,7 +696,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 스캔을 위한 카메라 권한";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -679,7 +726,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftUIStudy/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "QR코드 스캔을 위한 카메라 권한";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
