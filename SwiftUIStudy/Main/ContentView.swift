@@ -69,32 +69,40 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                 })
                 
                 Section {
-                    NavigationLink(destination: ProfileView()) {
-                        Text("Simple프로필")
+                    Group {
+                        NavigationLink(destination: ProfileView()) {
+                            Text("Simple프로필")
+                        }
+                        NavigationLink(destination: CountingButton()) {
+                            Text("CountingButton")
+                        }
+                        NavigationLink(destination: CurrencyView()) {
+                            Text("계산앱")
+                        }
+                        NavigationLink(destination: SearchBarView()) {
+                            Text("Use SearchBar")
+                        }
+                        NavigationLink(destination: Todos()) {
+                            Text("간단한 TODO")
+                        }
+                        NavigationLink(destination: GuessTheFlag()) {
+                            Text("GuessTheFlag")
+                        }
+                        NavigationLink(destination: APICallsPracticeView()) {
+                            Text("SwiftUI로 API통신")
+                        }
+                        NavigationLink(destination: QRReaderView()) {
+                            Text("QR리더기")
+                        }
+                        NavigationLink(destination: VisionKitView()) {
+                            Text("VisionKit")
+                        }
                     }
-                    NavigationLink(destination: CountingButton()) {
-                        Text("CountingButton")
-                    }
-                    NavigationLink(destination: CurrencyView()) {
-                        Text("계산앱")
-                    }
-                    NavigationLink(destination: SearchBarView()) {
-                        Text("Use SearchBar")
-                    }
-                    NavigationLink(destination: Todos()) {
-                        Text("간단한 TODO")
-                    }
-                    NavigationLink(destination: GuessTheFlag()) {
-                        Text("GuessTheFlag")
-                    }
-                    NavigationLink(destination: APICallsPracticeView()) {
-                        Text("SwiftUI로 API통신")
-                    }
-                    NavigationLink(destination: QRReaderView()) {
-                        Text("QR리더기")
-                    }
-                    NavigationLink(destination: VisionKitView()) {
-                        Text("VisionKit")
+                    
+                    Group {
+                        NavigationLink(destination: BetterRest()) {
+                            Text("수면시간계산기(use CoreML)")
+                        }
                     }
                     //Link("단순히 링크로 듸우기", destination: URL(string: "https://www.naver.com")!)
                 }

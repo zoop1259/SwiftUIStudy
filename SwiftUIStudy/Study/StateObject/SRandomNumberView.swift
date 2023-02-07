@@ -16,7 +16,7 @@ struct SRandomNumberView: View {
     
     
     var body: some View {
-        VStack {
+        VStack(spacing:20) {
             
             Text("Random number is: \(randomNumber)")
             

@@ -1,6 +1,7 @@
 import SwiftUI
 import Combine
 
+/*
 Just((0...5))
     .sink { value in
         print(value) //그저 Just안의 값이 방출됨. 0부터5가 방출되는게 아님.
@@ -36,13 +37,7 @@ let _ = Just(5)
     .sink { receivedValue in
         print("The end result was \(receivedValue)")
     }
+*/
 
-let a = ["data":["id","name"]]
-print(a)
-let b = a
-    .map{ $0 }
-print(b)
-let c = a.flatMap{$0}
-print(c)
 
 
