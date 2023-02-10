@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
+import Combine
 
 final class SViewModel: ObservableObject {
     //옵저버블오브젝트를 사용하여 퍼블리시해서 관찰.
     @Published var count = 0
+    
+    
 
     func incrementCounter() {
         count += 1

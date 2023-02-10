@@ -57,6 +57,7 @@
 		C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CB9F295D84B10096E2E6 /* GradientView.swift */; };
 		C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA1295E89BF0096E2E6 /* Todos.swift */; };
 		C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8CBA62960AF700096E2E6 /* ButtonView.swift */; };
+		C5B0F840299688380043EA51 /* FileManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0F83F299688380043EA51 /* FileManagerView.swift */; };
 		C5B628A1298CA75100C96C9C /* VisionKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A0298CA75100C96C9C /* VisionKitView.swift */; };
 		C5B628A3298CA82F00C96C9C /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A2298CA82F00C96C9C /* ScanData.swift */; };
 		C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A4298CA91700C96C9C /* ScannerView.swift */; };
@@ -132,6 +133,8 @@
 		C5A8CB9F295D84B10096E2E6 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		C5A8CBA1295E89BF0096E2E6 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
 		C5A8CBA62960AF700096E2E6 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C5B0F83F299688380043EA51 /* FileManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerView.swift; sourceTree = "<group>"; };
+		C5B2DC9D29941B4600D85291 /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5B628A0298CA75100C96C9C /* VisionKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitView.swift; sourceTree = "<group>"; };
 		C5B628A2298CA82F00C96C9C /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
 		C5B628A4298CA91700C96C9C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
@@ -240,6 +243,7 @@
 				C59F99B7296F67BC003489AF /* DateView.swift */,
 				C5E2CE2B297D0D06000E86AD /* SearchView.swift */,
 				C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */,
+				C5B0F83F299688380043EA51 /* FileManagerView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -427,6 +431,7 @@
 				C5E2CE242976047D000E86AD /* testView.swift */,
 				C5E2CE26297632CE000E86AD /* CombineGram.playground */,
 				C5592B6E298B7E54001010D6 /* UIGram.swift */,
+				C5B2DC9D29941B4600D85291 /* Observable.playground */,
 			);
 			path = Grammar;
 			sourceTree = "<group>";
@@ -561,6 +566,7 @@
 				C5592B71298B8062001010D6 /* JMyWebview.swift in Sources */,
 				C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */,
 				C59F99A9296EFC89003489AF /* AlternativeContentView.swift in Sources */,
+				C5B0F840299688380043EA51 /* FileManagerView.swift in Sources */,
 				C51A6FA529865D140020733A /* MVVMM.swift in Sources */,
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,
 				C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */,
