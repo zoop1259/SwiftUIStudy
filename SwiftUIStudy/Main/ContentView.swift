@@ -103,7 +103,7 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                         NavigationLink(destination: BetterRest()) {
                             Text("수면시간계산기(use CoreML)")
                         }
-                      NavigationLink(destination: FileManager()) {
+                      NavigationLink(destination: FileManagerView()) {
                           Text("TextField로 파일 저장해보기")
                       }
                     }
