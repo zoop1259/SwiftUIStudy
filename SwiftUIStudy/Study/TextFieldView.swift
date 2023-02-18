@@ -8,10 +8,21 @@
 import SwiftUI
 import Combine
 
+enum Field { //Field는 hashable을 따르므로, 따로 Hashable을 선언할 필요X
+  case userName
+  case email
+}
+
+
 struct TextFieldView: View {
     //var name = "" //이방법도 통하지 않는다.
     @State private var name = ""
     @StateObject private var goal = TFVM()
+  
+  @State private var userName = ""
+  @State private var email = ""
+  //iOS 15이상.
+  @FocusState private var focusField: Field?
     
     var body: some View {
         Form {
@@ -23,7 +34,7 @@ struct TextFieldView: View {
             
             
             //텍필 combine써보기
-            TextField("입력", text: $goal.goal.count)
+            TextField("숫자만...(50이하)", text: $goal.goal.count)
                 .keyboardType(.numberPad)
             //Just는 실패할 수 없고, 항상 값을 생산해냄.
             //onReceive는 failure가 never여야함. struct, enum, class같이 굳어진 타입들만이 해당 프로토콜을 따를 수 있다고 함.
@@ -45,10 +56,42 @@ struct TextFieldView: View {
                     //goal.saveData()
                     UIApplication.shared.endEditing()
                 }
+          
+          //FieldFocus는 특정한 텍스트필드가 비어있는 경우 자동으로 포커싱해준다.
+          Text("아래는 FieldFocus 사용.")
+          TextField("Name 입력", text: $userName)
+            .onSubmit { //이 함수의 효과는 print읽기
+              print("return키를 눌렀을때 호출됨.")
+            }
+            .focused($focusField, equals:  .userName)
+          TextField("email 입력", text: $email)
+            .textInputAutocapitalization(.never) //처음 대문자 비활성화.
+            .disableAutocorrection(true) //자동 수정 기능 비활성화?
+            .textFieldStyle(.roundedBorder) //윤곽선 처리지만 Form에서 쓰는거라 그렇게 심하게 티나진않는다.
+            .focused($focusField, equals: .email)
+          
+          
+          //여기선 버튼을 눌렀을때 둘중에 하나라도 비어있으면 그쪽으로 포커싱하게.
+          Button("Sign in") {
+            if userName.isEmpty {
+              focusField = .userName
+            } else if email.isEmpty {
+              focusField = .email
+            } else {
+              print("Complete Input and sign in...")
+            }
+          }
+          
 
             
         }
+        .onTapGesture { //Form범위를 다 늘려버리고 탭하면 키보드 내려가게.
+          hideKeyboard()
+        }
         .navigationBarTitleDisplayMode(.inline)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        
+        
         
     }
 }
@@ -80,4 +123,11 @@ class TFVM: ObservableObject {
 struct Goal {
     var count: String = ""
     var title: String = ""
+}
+
+
+extension View {
+  func hideKeyboard() {
+    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+  }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50BDB64299FB55400F59576 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50BDB63299FB55400F59576 /* ToggleView.swift */; };
 		C517E626298EC6160048C920 /* OUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E625298EC6160048C920 /* OUser.swift */; };
 		C517E628298EC6270048C920 /* OContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E627298EC6270048C920 /* OContentView.swift */; };
 		C517E62A298EC6440048C920 /* OAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C517E629298EC6440048C920 /* OAnotherView.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50BDB63299FB55400F59576 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		C517E625298EC6160048C920 /* OUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OUser.swift; sourceTree = "<group>"; };
 		C517E627298EC6270048C920 /* OContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OContentView.swift; sourceTree = "<group>"; };
 		C517E629298EC6440048C920 /* OAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAnotherView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		C5B0F83F299688380043EA51 /* FileManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerView.swift; sourceTree = "<group>"; };
 		C5B0F84B299A4E8E0043EA51 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		C5B0F84D299A4E940043EA51 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		C5B0F85A299A9D8E0043EA51 /* BetterClosures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BetterClosures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5B2DC9D29941B4600D85291 /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5B628A0298CA75100C96C9C /* VisionKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitView.swift; sourceTree = "<group>"; };
 		C5B628A2298CA82F00C96C9C /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
@@ -249,6 +252,7 @@
 				C5E2CE2B297D0D06000E86AD /* SearchView.swift */,
 				C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */,
 				C5B0F83F299688380043EA51 /* FileManagerView.swift */,
+				C50BDB63299FB55400F59576 /* ToggleView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -446,6 +450,7 @@
 				C5E2CE26297632CE000E86AD /* CombineGram.playground */,
 				C5592B6E298B7E54001010D6 /* UIGram.swift */,
 				C5B2DC9D29941B4600D85291 /* Observable.playground */,
+				C5B0F85A299A9D8E0043EA51 /* BetterClosures.playground */,
 			);
 			path = Grammar;
 			sourceTree = "<group>";
@@ -542,6 +547,7 @@
 				C5DF4581296E1CA600EEB686 /* MyImageView.swift in Sources */,
 				C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */,
 				C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */,
+				C50BDB64299FB55400F59576 /* ToggleView.swift in Sources */,
 				C59F99A4296EFBD2003489AF /* JournalView.swift in Sources */,
 				C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */,
 				C5F409202992BC74001D5096 /* BetterRest.swift in Sources */,
