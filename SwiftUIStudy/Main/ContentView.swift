@@ -7,11 +7,41 @@
 
 import SwiftUI
 
+///퀵헬프 주석 퀵헬프를 띄웠을떄 Summarr에 뜨는 글 ( option + CMD + / )
 struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
+  //아래처럼 한방에 작성할 수 있다.
+  /**
+    body의 (Summary 부분)
+   
+   >(Description 부분)
+   - Papameters:
+       - property: 각각의 View들을 Form으로...
+   
+   위처럼 비워야 한줄이 띄워진다. (주석에선 두줄을 띄워야한다는것.)
+   *[이렇게하면 기울어진다]*
+   **[이렇게하면 굵어진다]**
+    [이건 실험용 네이버링크](www.naver.com)
+  #[큰제목이야]
+   ##[조금 작은 중간 제목이야]
+   ```[코드]```
+   
+   ---
+  - 마크업 문법
+   줄바꿈: 텍스트 간에 한줄 비우기
+   문단 바꿈: 바를 세 개 이상 사용 ( --- )
+   텍스트 기울이기: *[텍스트]*
+   bold: **[텍스트]**
+   link: [링크 이름](링크 주소)
+   큰 제목: # [제목]
+   중간 제목: ## [중간 제목]
+   코드블록: backquote사용  ```[코드]```
+   ---
+   
+   */
+  
     var body: some View { //
         NavigationView {
             Form {
-                
                 Section(header: Text("조금 다른 문법들")) {
                     NavigationLink(destination: IF______________()) {
                         Text("IF와 삼항연산자")

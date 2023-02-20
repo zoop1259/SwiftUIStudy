@@ -15,9 +15,12 @@ struct FileManagerView: View {
 
     var body: some View {
         VStack {
-            HStack {
+            VStack {
                 TextField("Title", text: $newFileTitle)
-                TextField("Content", text: $newFileContent)
+                .padding(20)
+                .font(.title2)
+              TextField("Content", text: $newFileContent, axis: .horizontal)
+                .font(.title3)
             }
             .padding()
 

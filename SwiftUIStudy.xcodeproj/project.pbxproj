@@ -45,6 +45,9 @@
 		C5648DF2295AA2E000322231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DF1295AA2E000322231 /* Preview Assets.xcassets */; };
 		C58A8451296485DE00FB6644 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58A8450296485DE00FB6644 /* GuessTheFlag.swift */; };
 		C58A84532964A64300FB6644 /* ViewAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58A84522964A64300FB6644 /* ViewAndModifiers.swift */; };
+		C58B8A8529A34A0400C8A064 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B8A8429A34A0400C8A064 /* ListView.swift */; };
+		C58B8A8B29A3551900C8A064 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B8A8A29A3551900C8A064 /* WordScramble.swift */; };
+		C58B8A8F29A3589A00C8A064 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = C58B8A8E29A3589A00C8A064 /* start.txt */; };
 		C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F999D296EFBBC003489AF /* TabMainView.swift */; };
 		C59F99A2296EFBC9003489AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F99A1296EFBC9003489AF /* SettingsView.swift */; };
 		C59F99A4296EFBD2003489AF /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59F99A3296EFBD2003489AF /* JournalView.swift */; };
@@ -124,6 +127,9 @@
 		C5648DF1295AA2E000322231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C58A8450296485DE00FB6644 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		C58A84522964A64300FB6644 /* ViewAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAndModifiers.swift; sourceTree = "<group>"; };
+		C58B8A8429A34A0400C8A064 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C58B8A8A29A3551900C8A064 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		C58B8A8E29A3589A00C8A064 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		C59F999D296EFBBC003489AF /* TabMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMainView.swift; sourceTree = "<group>"; };
 		C59F99A1296EFBC9003489AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C59F99A3296EFBD2003489AF /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
@@ -253,6 +259,7 @@
 				C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */,
 				C5B0F83F299688380043EA51 /* FileManagerView.swift */,
 				C50BDB63299FB55400F59576 /* ToggleView.swift */,
+				C58B8A8429A34A0400C8A064 /* ListView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -270,6 +277,7 @@
 				C58A8450296485DE00FB6644 /* GuessTheFlag.swift */,
 				C59F99B2296F4264003489AF /* BetterRest */,
 				C5592B7F298BCCEB001010D6 /* QRReaderView.swift */,
+				C58B8A8D29A3588B00C8A064 /* WordScramble */,
 			);
 			path = BasicApp;
 			sourceTree = "<group>";
@@ -339,6 +347,15 @@
 				C5648DF1295AA2E000322231 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C58B8A8D29A3588B00C8A064 /* WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				C58B8A8E29A3589A00C8A064 /* start.txt */,
+				C58B8A8A29A3551900C8A064 /* WordScramble.swift */,
+			);
+			path = WordScramble;
 			sourceTree = "<group>";
 		};
 		C59F999C296EFBAD003489AF /* TabView */ = {
@@ -520,6 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5648DF2295AA2E000322231 /* Preview Assets.xcassets in Resources */,
+				C58B8A8F29A3589A00C8A064 /* start.txt in Resources */,
 				C5648DEF295AA2E000322231 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,6 +571,7 @@
 				C5F409202992BC74001D5096 /* BetterRest.swift in Sources */,
 				C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */,
 				C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */,
+				C58B8A8529A34A0400C8A064 /* ListView.swift in Sources */,
 				C517E62A298EC6440048C920 /* OAnotherView.swift in Sources */,
 				C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */,
 				C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */,
@@ -562,6 +581,7 @@
 				C539BD36295BE6320034C2B0 /* StackView.swift in Sources */,
 				C5A8CBA72960AF700096E2E6 /* ButtonView.swift in Sources */,
 				C51A6FA929865E5D0020733A /* MVVMMV.swift in Sources */,
+				C58B8A8B29A3551900C8A064 /* WordScramble.swift in Sources */,
 				C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */,
 				C59F99B8296F67BC003489AF /* DateView.swift in Sources */,
 				C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */,

@@ -14,6 +14,7 @@ enum Field { //Field는 hashable을 따르므로, 따로 Hashable을 선언할 �
 }
 
 
+/// 
 struct TextFieldView: View {
     //var name = "" //이방법도 통하지 않는다.
     @State private var name = ""
