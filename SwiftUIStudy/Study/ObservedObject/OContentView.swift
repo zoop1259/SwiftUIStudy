@@ -9,7 +9,6 @@ import SwiftUI
 
 struct OContentView: View {
 //    @State var user = OUser(name: "", age: 0)
-    //placeholder를 사용하고 싶다. 그러면 빈값이 없어야하는데...
     @ObservedObject var userWrapper = OUserWrapper(user: OUser(name: "", age: 0))
     
     var body: some View {
