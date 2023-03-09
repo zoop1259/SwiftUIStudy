@@ -39,6 +39,12 @@ struct FileManagerView: View {
                 }) {
                     Text("이미지 저장해보기")
                 }
+                
+                Button(action: {
+                    
+                }) {
+                    Text("삭제해보기")
+                }
             }
             
             

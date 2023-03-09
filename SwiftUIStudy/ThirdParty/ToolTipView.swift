@@ -13,7 +13,7 @@ struct ToolTipView: View {
     @State var tooltipVisible = false
     @State var textFieldVisible = false
     @State var textFieldText = ""
-    
+
     @State var longVisible = true
     init() {
         self.tooltipConfig.enableAnimation = true
