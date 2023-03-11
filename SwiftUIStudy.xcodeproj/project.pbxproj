@@ -44,6 +44,7 @@
 		C5592B83298BCD2D001010D6 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C5592B82298BCD2D001010D6 /* CodeScanner */; };
 		C55F82DC29A6ED2500D440A4 /* SwiftUITooltip in Frameworks */ = {isa = PBXBuildFile; productRef = C55F82DB29A6ED2500D440A4 /* SwiftUITooltip */; };
 		C55F82DE29A6ED3E00D440A4 /* ToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55F82DD29A6ED3E00D440A4 /* ToolTipView.swift */; };
+		C56108C229BB312800777D3E /* FluxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56108C129BB312700777D3E /* FluxView.swift */; };
 		C5648DEB295AA2DE00322231 /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */; };
 		C5648DED295AA2DE00322231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5648DEC295AA2DE00322231 /* ContentView.swift */; };
 		C5648DEF295AA2E000322231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5648DEE295AA2E000322231 /* Assets.xcassets */; };
@@ -137,6 +138,7 @@
 		C5592B7D298BBE71001010D6 /* JTabViewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTabViewColor.swift; sourceTree = "<group>"; };
 		C5592B7F298BCCEB001010D6 /* QRReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderView.swift; sourceTree = "<group>"; };
 		C55F82DD29A6ED3E00D440A4 /* ToolTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTipView.swift; sourceTree = "<group>"; };
+		C56108C129BB312700777D3E /* FluxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxView.swift; sourceTree = "<group>"; };
 		C5648DE7295AA2DE00322231 /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5648DEA295AA2DE00322231 /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		C5648DEC295AA2DE00322231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -367,6 +369,14 @@
 			path = ThirdParty;
 			sourceTree = "<group>";
 		};
+		C56108C029BB311A00777D3E /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				C56108C129BB312700777D3E /* FluxView.swift */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
 		C5648DDE295AA2DE00322231 = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +396,7 @@
 		C5648DE9295AA2DE00322231 /* SwiftUIStudy */ = {
 			isa = PBXGroup;
 			children = (
+				C56108C029BB311A00777D3E /* Pattern */,
 				C5592B72298B8141001010D6 /* Info.plist */,
 				C5D9CA392988C0AF00AF757C /* JeffJoungFollowed */,
 				C5E2CE212975A5DB000E86AD /* Grammar */,
@@ -709,6 +720,7 @@
 				C517E64D298FC22D0048C920 /* TextView.swift in Sources */,
 				C5B05F7829AC74EE009B21B4 /* SheetView.swift in Sources */,
 				C539BD33295B23C30034C2B0 /* CurrencyView.swift in Sources */,
+				C56108C229BB312800777D3E /* FluxView.swift in Sources */,
 				C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */,
 				C5D9CA412988C8B100AF757C /* JMyTextView.swift in Sources */,
 				C5592B71298B8062001010D6 /* JMyWebview.swift in Sources */,
