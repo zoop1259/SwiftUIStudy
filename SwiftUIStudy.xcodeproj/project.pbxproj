@@ -87,6 +87,7 @@
 		C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A4298CA91700C96C9C /* ScannerView.swift */; };
 		C5B628A7298CAA6300C96C9C /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */; };
 		C5B628A9298CFBA600C96C9C /* PhotosUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */; };
+		C5BCBF1D29D455A8001D10C0 /* MultiplatformSampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */; };
 		C5D7944929C830F800242C5A /* LocalizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7944829C830F800242C5A /* LocalizationView.swift */; };
 		C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */; };
 		C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */; };
@@ -188,6 +189,7 @@
 		C5B628A4298CA91700C96C9C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 		C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIView.swift; sourceTree = "<group>"; };
+		C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformSampleCode.swift; sourceTree = "<group>"; };
 		C5D7944829C830F800242C5A /* LocalizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationView.swift; sourceTree = "<group>"; };
 		C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsPracticeView.swift; sourceTree = "<group>"; };
 		C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsViewModel.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 				C5B05F8729AF8CE9009B21B4 /* PresentView.swift */,
 				C52C4B7329B7221000454CB1 /* SpacerView.swift */,
 				C5D7944829C830F800242C5A /* LocalizationView.swift */,
+				C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -769,6 +772,7 @@
 				C5B628A1298CA75100C96C9C /* VisionKitView.swift in Sources */,
 				C5B628A9298CFBA600C96C9C /* PhotosUIView.swift in Sources */,
 				C5592B80298BCCEB001010D6 /* QRReaderView.swift in Sources */,
+				C5BCBF1D29D455A8001D10C0 /* MultiplatformSampleCode.swift in Sources */,
 				C56D6BCE29B8A322002C24D1 /* CCulcModel.swift in Sources */,
 				C5DF4583296E1D7C00EEB686 /* MapView.swift in Sources */,
 				C539BD2D295AB8D70034C2B0 /* CountingButton.swift in Sources */,
