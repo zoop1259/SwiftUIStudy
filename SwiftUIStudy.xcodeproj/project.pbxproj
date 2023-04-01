@@ -34,6 +34,7 @@
 		C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD37295BE81C0034C2B0 /* ColorAndFrameView.swift */; };
 		C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD39295BEA290034C2B0 /* SearchBarView.swift */; };
 		C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */; };
+		C556177129D854AA00001527 /* ShowingAndHidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556177029D854AA00001527 /* ShowingAndHidingView.swift */; };
 		C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B6E298B7E54001010D6 /* UIGram.swift */; };
 		C5592B71298B8062001010D6 /* JMyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B70298B8062001010D6 /* JMyWebview.swift */; };
 		C5592B74298B83A0001010D6 /* JWebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B73298B83A0001010D6 /* JWebContentView.swift */; };
@@ -134,6 +135,7 @@
 		C539BD37295BE81C0034C2B0 /* ColorAndFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndFrameView.swift; sourceTree = "<group>"; };
 		C539BD39295BEA290034C2B0 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiProvider.swift; sourceTree = "<group>"; };
+		C556177029D854AA00001527 /* ShowingAndHidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingView.swift; sourceTree = "<group>"; };
 		C5592B6E298B7E54001010D6 /* UIGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGram.swift; sourceTree = "<group>"; };
 		C5592B70298B8062001010D6 /* JMyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMyWebview.swift; sourceTree = "<group>"; };
 		C5592B72298B8141001010D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 				C52C4B7329B7221000454CB1 /* SpacerView.swift */,
 				C5D7944829C830F800242C5A /* LocalizationView.swift */,
 				C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */,
+				C556177029D854AA00001527 /* ShowingAndHidingView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -720,6 +723,7 @@
 				C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */,
 				C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */,
 				C5592B79298B9675001010D6 /* JGeometryReader.swift in Sources */,
+				C556177129D854AA00001527 /* ShowingAndHidingView.swift in Sources */,
 				C5592B74298B83A0001010D6 /* JWebContentView.swift in Sources */,
 				C539BD31295B1EFF0034C2B0 /* PickerView.swift in Sources */,
 				C539BD36295BE6320034C2B0 /* StackView.swift in Sources */,
