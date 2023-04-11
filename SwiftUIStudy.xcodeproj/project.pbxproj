@@ -59,6 +59,9 @@
 		C58B8A8529A34A0400C8A064 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B8A8429A34A0400C8A064 /* ListView.swift */; };
 		C58B8A8B29A3551900C8A064 /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B8A8A29A3551900C8A064 /* WordScramble.swift */; };
 		C58B8A8F29A3589A00C8A064 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = C58B8A8E29A3589A00C8A064 /* start.txt */; };
+		C59191D829E2BFC400DAB502 /* JFilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59191D729E2BFC400DAB502 /* JFilteredList.swift */; };
+		C59191DD29E4EBC400DAB502 /* EnumNaviLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59191DC29E4EBC400DAB502 /* EnumNaviLink.swift */; };
+		C59191DF29E4EF6400DAB502 /* EnumSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59191DE29E4EF6400DAB502 /* EnumSetting.swift */; };
 		C596E0C129C206E5008E1FF8 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596E0C029C206E5008E1FF8 /* ButtonStyleView.swift */; };
 		C596E0C329C20725008E1FF8 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596E0C229C20725008E1FF8 /* MyButtonStyle.swift */; };
 		C596E0C629C20DA9008E1FF8 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C596E0C529C20DA9008E1FF8 /* PopupView.swift */; };
@@ -161,6 +164,9 @@
 		C58B8A8429A34A0400C8A064 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		C58B8A8A29A3551900C8A064 /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		C58B8A8E29A3589A00C8A064 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		C59191D729E2BFC400DAB502 /* JFilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFilteredList.swift; sourceTree = "<group>"; };
+		C59191DC29E4EBC400DAB502 /* EnumNaviLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumNaviLink.swift; sourceTree = "<group>"; };
+		C59191DE29E4EF6400DAB502 /* EnumSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSetting.swift; sourceTree = "<group>"; };
 		C596E0C029C206E5008E1FF8 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 		C596E0C229C20725008E1FF8 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 		C596E0C529C20DA9008E1FF8 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
@@ -297,6 +303,7 @@
 		C539BD2B295AB42C0034C2B0 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				C59191DB29E4EBAC00DAB502 /* EnumNavi */,
 				C556177429DAADA000001527 /* StructAndClass */,
 				C56D6BC729B8A2A5002C24D1 /* Combine */,
 				C5107CFC29B1953F0062B210 /* Menu */,
@@ -473,6 +480,23 @@
 			path = WordScramble;
 			sourceTree = "<group>";
 		};
+		C59191D629E2BFA400DAB502 /* SegWithFilter */ = {
+			isa = PBXGroup;
+			children = (
+				C59191D729E2BFC400DAB502 /* JFilteredList.swift */,
+			);
+			path = SegWithFilter;
+			sourceTree = "<group>";
+		};
+		C59191DB29E4EBAC00DAB502 /* EnumNavi */ = {
+			isa = PBXGroup;
+			children = (
+				C59191DC29E4EBC400DAB502 /* EnumNaviLink.swift */,
+				C59191DE29E4EF6400DAB502 /* EnumSetting.swift */,
+			);
+			path = EnumNavi;
+			sourceTree = "<group>";
+		};
 		C596E0BF29C206D5008E1FF8 /* ButtonStyle */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +595,7 @@
 		C5D9CA392988C0AF00AF757C /* JeffJoungFollowed */ = {
 			isa = PBXGroup;
 			children = (
+				C59191D629E2BFA400DAB502 /* SegWithFilter */,
 				C596E0C429C20D97008E1FF8 /* Popup */,
 				C596E0BF29C206D5008E1FF8 /* ButtonStyle */,
 				C5592B7A298BBD11001010D6 /* Chapter4 */,
@@ -721,6 +746,7 @@
 				C517E647298F8BC30048C920 /* SContentView.swift in Sources */,
 				C517E649298F8BD70048C920 /* SViewModel.swift in Sources */,
 				C5DF4581296E1CA600EEB686 /* MyImageView.swift in Sources */,
+				C59191DF29E4EF6400DAB502 /* EnumSetting.swift in Sources */,
 				C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */,
 				C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */,
 				C50BDB64299FB55400F59576 /* ToggleView.swift in Sources */,
@@ -754,6 +780,7 @@
 				C596E0C329C20725008E1FF8 /* MyButtonStyle.swift in Sources */,
 				C55F82DE29A6ED3E00D440A4 /* ToolTipView.swift in Sources */,
 				C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */,
+				C59191D829E2BFC400DAB502 /* JFilteredList.swift in Sources */,
 				C56D6BCA29B8A2D6002C24D1 /* CSumView.swift in Sources */,
 				C517E64B298F8D930048C920 /* SRandomNumberView.swift in Sources */,
 				C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */,
@@ -766,6 +793,7 @@
 				C517E626298EC6160048C920 /* OUser.swift in Sources */,
 				C5B05F7F29AF86B2009B21B4 /* PopoverMainView.swift in Sources */,
 				C52C4B7429B7221000454CB1 /* SpacerView.swift in Sources */,
+				C59191DD29E4EBC400DAB502 /* EnumNaviLink.swift in Sources */,
 				C5B05F8829AF8CE9009B21B4 /* PresentView.swift in Sources */,
 				C5B05F8629AF88EC009B21B4 /* ModalMainView.swift in Sources */,
 				C59F99B4296F428A003489AF /* StepperView.swift in Sources */,
