@@ -23,6 +23,7 @@
 		C51A6FA529865D140020733A /* MVVMM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA429865D140020733A /* MVVMM.swift */; };
 		C51A6FA729865DF90020733A /* MVVMDV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA629865DF90020733A /* MVVMDV.swift */; };
 		C51A6FA929865E5D0020733A /* MVVMMV.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51A6FA829865E5D0020733A /* MVVMMV.swift */; };
+		C522B0B529E6E09900B1DDE6 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B0B429E6E09900B1DDE6 /* LinkView.swift */; };
 		C52C4B7429B7221000454CB1 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52C4B7329B7221000454CB1 /* SpacerView.swift */; };
 		C5399A9229D05A88000A5C5C /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = C5399A9129D05A88000A5C5C /* PopupView */; };
 		C539BD29295AB4160034C2B0 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD28295AB4160034C2B0 /* AlertView.swift */; };
@@ -129,6 +130,7 @@
 		C51A6FA429865D140020733A /* MVVMM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMM.swift; sourceTree = "<group>"; };
 		C51A6FA629865DF90020733A /* MVVMDV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMDV.swift; sourceTree = "<group>"; };
 		C51A6FA829865E5D0020733A /* MVVMMV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMMV.swift; sourceTree = "<group>"; };
+		C522B0B429E6E09900B1DDE6 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		C52C4B7329B7221000454CB1 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		C539BD28295AB4160034C2B0 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		C539BD2C295AB8D70034C2B0 /* CountingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingButton.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				C5D7944829C830F800242C5A /* LocalizationView.swift */,
 				C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */,
 				C556177029D854AA00001527 /* ShowingAndHidingView.swift */,
+				C522B0B429E6E09900B1DDE6 /* LinkView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -756,6 +759,7 @@
 				C5E2CE2C297D0D06000E86AD /* SearchView.swift in Sources */,
 				C5E2CE232975A641000E86AD /* IF삼항연산자.swift in Sources */,
 				C58B8A8529A34A0400C8A064 /* ListView.swift in Sources */,
+				C522B0B529E6E09900B1DDE6 /* LinkView.swift in Sources */,
 				C517E62A298EC6440048C920 /* OAnotherView.swift in Sources */,
 				C51A6FA129865C5A0020733A /* MVVMTFV.swift in Sources */,
 				C5592B77298B85B6001010D6 /* JTextContentView.swift in Sources */,

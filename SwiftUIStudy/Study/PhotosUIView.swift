@@ -24,7 +24,11 @@ struct PhotosUIView: View {
                     ScrollView {
                         LazyVGrid(columns: [.init(.adaptive(minimum: 200)), .init(.adaptive(minimum: 200))]) {
                             ForEach(selectedImageData, id: \.self) { dataItem in
-                                if let dataItem = dataItem, let uiImage = UIImage(data: dataItem) {
+                                //14.3 패치이후 안된다.
+//                                if let dataItem = dataItem, let uiImage = UIImage(data: dataItem) {
+//                                    Image(uiImage: uiImage)
+                                //수정후.
+                                if let uiImage = UIImage(data: dataItem) {
                                     Image(uiImage: uiImage)
                                         .resizable()
                                         .frame(height: 150)
