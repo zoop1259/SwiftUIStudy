@@ -9,30 +9,47 @@ import SwiftUI
 
 struct LocalNotifications: View {
     @EnvironmentObject var lnManager: LocalNotificationManager
+    //장면단계에서 파악.
+    @Environment(\.scenePhase) var scenePhase
     var body: some View {
         NavigationView {
             VStack {
-                GroupBox("Schedule") {
-                    Button("Interval Notification") {
-                        
+                //Manager에서 2번까지 진행해도 이 View에서는 isGranted의 값을 알 수 없어 요청을 하지 않기 때문에.
+                if lnManager.isGranted {
+                    GroupBox("Schedule") {
+                        Button("Interval Notification") {
+                            
+                        }
+                        .buttonStyle(.bordered)
+                        Button("Calendar Notification") {
+                            
+                        }
+                        .buttonStyle(.bordered)
                     }
-                    .buttonStyle(.bordered)
-                    Button("Calendar Notification") {
-                        
+                    .frame(width: 300)
+                    // List View Here
+                } else {
+                    Button("Enable Notifications") {
+                        //버튼을 누르면 알림설정 화면으로 넘어가짐.
+                        lnManager.openSettings()
                     }
-                    .buttonStyle(.bordered)
                 }
-                .frame(width: 300)
-                // List View Here
-                
                 
             }
             .navigationTitle("Local Notifications")
         }
         .navigationViewStyle(.stack)
         .task {
-            //알람설정 요구.
+            //초기 알람설정 요구.
             try? await lnManager.requestAuthorization()
+        }
+        //알람설정 on/off 파악.
+        .onChange(of: scenePhase) { newValue in
+            if newValue == .active {
+                Task {
+                    await lnManager.getCurrentSettings()
+                }
+            }
         }
     }
 }
