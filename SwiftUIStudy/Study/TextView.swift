@@ -9,24 +9,69 @@ import SwiftUI
 
 
 struct TextView: View {
+    
+    @State var str = ""
+    
     var body: some View {
         VStack(spacing: 20) {
+            Text("기본적인 텍스트.")
+            
+            VStack {
+                Text("베이스라인을 조절한 Text")
+                    .baselineOffset(1) //양수면 문자열이 위로, 음수면 문자열이 아래로 이동한다.
+                
+                Text("컨텍스트 메뉴 Text")
+                    .onAppear()
+                    //.contextMenu(<#T##contextMenu: ContextMenu<View>?##ContextMenu<View>?#>)
+            }
+            
+            HStack {
+                Text("이게이렇게 길면 옆이 밀릴텐데 요오오오오")
+                    .lineLimit(1)
+                    .truncationMode(.middle) //글이 짤리는 경우 정한방향(앞,뒤,중간)을 생략해준다.
+                    .minimumScaleFactor(.greatestFiniteMagnitude) //글시가 짤릴떄 텍스트의 최소 크기 설정 현재 설정은 자동으로 조절해주는것이고 (0.01~0.5의 범위조절이 가능하다 0.5는 50%다.)
+                Text("여기에 Factor를 한번")
+                    //.minimumScaleFactor()
+            }
+            
+            HStack {
+                Text("텍스트들은")
+                    .lineLimit(1)
+                    .font(.title3)
+                    .fixedSize(horizontal: true, vertical: false) //가로 방향으로만 고정
+                
+                TextField("텍스트사이에 자유로운 텍스트필드", text: $str)
+                    .padding()
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(8.0)
+                
+                Text("크기고정")
+                    .lineLimit(1)
+                    .font(.title3)
+                    .fixedSize(horizontal: true, vertical: false) //가로 방향으로만 고정
+                
+            }
+            
             Text("이렇게 무지성으로 cornerRadius를 주면 침범")
                 .border(.black, width: 2)
                 .cornerRadius(20)
                 .underline() //밑줄
                 .baselineOffset(30) //밑에 offset주기
           
-            Text("이렇게 패딩을 넣어주면 침범은 안하는데 꼭지점이 이상함")
+            Text("이렇게 패딩을 넣어주면 침범은 안하는데 꼭지점이 이상함요요요")
+                .lineLimit(2)
                 .font(.caption)
                 .padding(10)
                 .border(.red, width: 2)
                 .cornerRadius(10)
                 .strikethrough() //가운데 선긋기
+            
           
             // 문자간의 offset을 조절
             Text("test1 test2 test3 test123")
               .kerning(30)
+              .foregroundColor(.blue)
+              .multilineTextAlignment(.trailing) //텍스트의 정렬방식 설정
             
             // 문자간의 offset을 조절하는게 아니라, 후행 공백을 추가하거나 제거하여 조절
             Text("test1 test2 test3 test123")
