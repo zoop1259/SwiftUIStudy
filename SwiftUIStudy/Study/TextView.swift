@@ -12,17 +12,43 @@ struct TextView: View {
     
     @State var str = ""
     
+    //텍스트 탭 애니메이션 용 변수.
+    @State private var isTapped = false
+    
     var body: some View {
         VStack(spacing: 20) {
             Text("기본적인 텍스트.")
+                //접근성 특성
+                .accessibilityLabel("접근성 특성 라벨.")
             
             VStack {
                 Text("베이스라인을 조절한 Text")
                     .baselineOffset(1) //양수면 문자열이 위로, 음수면 문자열이 아래로 이동한다.
+                    .onAppear {
+                        print("뷰가 등장했다.") //appear
+                    }
+                    .onDisappear {
+                        print("뷰가 사라진다.")
+                    }
                 
                 Text("컨텍스트 메뉴 Text")
-                    .onAppear()
-                    //.contextMenu(<#T##contextMenu: ContextMenu<View>?##ContextMenu<View>?#>)
+                    .rotationEffect(.degrees(15)) //살짝 돌리기
+//                    .scaleEffect(1.5) //텍스트뷰를 확대 또는 축소인데. 이것은 탭 제스처와 함께 써야할 듯.
+//                    .offset(x:10,y: 10) //지정하여 위치를 이동시키기.
+                
+                    .contextMenu {
+                        Button {
+                            print("1번")
+                        } label: {
+                            Text("Menu1")
+                        }
+                        
+                        Button {
+                            print("2번")
+                        } label: {
+                            Text("Menu2")
+                        }
+                    }
             }
             
             HStack {
@@ -34,22 +60,29 @@ struct TextView: View {
                     //.minimumScaleFactor()
             }
             
-            HStack {
-                Text("텍스트들은")
-                    .lineLimit(1)
-                    .font(.title3)
-                    .fixedSize(horizontal: true, vertical: false) //가로 방향으로만 고정
-                
-                TextField("텍스트사이에 자유로운 텍스트필드", text: $str)
-                    .padding()
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(8.0)
-                
-                Text("크기고정")
-                    .lineLimit(1)
-                    .font(.title3)
-                    .fixedSize(horizontal: true, vertical: false) //가로 방향으로만 고정
-                
+            VStack {
+                Text("탭시 애니메이션 효과")
+                    .foregroundColor(isTapped ? .red: .black)
+                    .animation(.easeOut(duration: 1.0))
+                    .onTapGesture {
+                        self.isTapped.toggle()
+                    }
+                HStack {
+                    Text("텍스트들은")
+                        .lineLimit(1)
+                        .font(.title3)
+                        .fixedSize(horizontal: true, vertical: false) //가로 방향으로만 고정
+                    
+                    TextField("텍스트사이에 자유로운 텍스트필드", text: $str)
+                        .padding()
+                        .background(Color.gray.opacity(0.2))
+                        .cornerRadius(8.0)
+                    Text("크기고정")
+                        .lineLimit(1)
+                        .font(.title3)
+                        .fixedSize(horizontal: true, vertical: false) //가로 방향으로만 고정
+                    
+                }
             }
             
             Text("이렇게 무지성으로 cornerRadius를 주면 침범")
