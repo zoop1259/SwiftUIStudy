@@ -15,10 +15,34 @@ struct SearchView: View {
     @ObservedObject var userData = UserData()
     @State private var placeholder: String = "Enter text here"
 
-    var body: some View {
-        VStack {
-            TextField(placeholder, text: $userData.text)
-            Text("Text is: \(userData.text)")
+    @State private var searchText = ""
+    let data: [String: Int] = ["A" : 1, "B" : 2, "C" : 3]
+    var filterData: [String: Int] {
+        if searchText.isEmpty {
+            return data
+        } else {
+            return data.filter { $0.key.contains(searchText) }
         }
+        
+    }
+    
+    var body: some View {
+        
+        NavigationView {
+            List {
+                ForEach(filterData.sorted(by: <), id: \.key) { key, value in
+                    Text("\(key): \(value)")
+                }
+            }
+            .searchable(text: $searchText)
+            .navigationTitle("BasicSearch")
+        }
+        
+    }
+}
+
+struct SearchView_Previews: PreviewProvider {
+    static var previews: some View {
+        SearchView()
     }
 }
