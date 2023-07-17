@@ -67,7 +67,8 @@ let cancellable2 = numbers2.publisher
         receiveValue: { print ("\($0)", terminator: " ") }
      )
 
-
+//published state object들은 기본적은 기능을 사용할때에는 combine을 import하지 않아도 되지만.
+//sink와 같은 기능들을 '같이'사용하게되면 사용해주어야한다.
 
 
 

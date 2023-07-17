@@ -17,6 +17,7 @@ struct ButtonView: View {
                     .padding()
                     .foregroundColor(.white)
                     .background(.red)
+                
             }
             Button("이렇게 바로 라벨을 적어줘도 된다.", role: .destructive ,action: funcCalled)
             Button("bordered Button") { }
