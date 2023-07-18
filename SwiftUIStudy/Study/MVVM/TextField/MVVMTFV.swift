@@ -23,6 +23,7 @@ struct MVVMTFV: View {
             Text("입력된 데이터: \(text)")
                 .padding()
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

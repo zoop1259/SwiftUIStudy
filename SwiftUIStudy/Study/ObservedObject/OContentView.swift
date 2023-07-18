@@ -19,7 +19,7 @@ struct OContentView: View {
                 .textFieldStyle(.roundedBorder)
                 .keyboardType(.numberPad)
             NavigationLink(destination: OAnotherView(userWrapper: userWrapper)) {
-                Text("go to anotherView")
+                Text("Go To AnotherView")
             }
         }.onTapGesture {
             //UIApplication.shared.keyWindow?.endEditing(true) //iOS13에서 키보드 내리기
@@ -45,6 +45,7 @@ struct OContentView: View {
 //            })
 //                .keyboardType(.decimalPad)
 //        }
+            .navigationBarTitleDisplayMode(.inline)
     }
     
 }
