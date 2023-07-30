@@ -35,6 +35,8 @@
 		C539BD38295BE81C0034C2B0 /* ColorAndFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD37295BE81C0034C2B0 /* ColorAndFrameView.swift */; };
 		C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD39295BEA290034C2B0 /* SearchBarView.swift */; };
 		C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */; };
+		C5447CD229FB62DF00205902 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5447CD129FB62DF00205902 /* LocalNotifications.swift */; };
+		C5447CD429FB636B00205902 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5447CD329FB636B00205902 /* LocalNotificationManager.swift */; };
 		C556177129D854AA00001527 /* ShowingAndHidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556177029D854AA00001527 /* ShowingAndHidingView.swift */; };
 		C556177629DAADB400001527 /* SACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556177529DAADB400001527 /* SACView.swift */; };
 		C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5592B6E298B7E54001010D6 /* UIGram.swift */; };
@@ -141,6 +143,8 @@
 		C539BD37295BE81C0034C2B0 /* ColorAndFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndFrameView.swift; sourceTree = "<group>"; };
 		C539BD39295BEA290034C2B0 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiProvider.swift; sourceTree = "<group>"; };
+		C5447CD129FB62DF00205902 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		C5447CD329FB636B00205902 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
 		C556177029D854AA00001527 /* ShowingAndHidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingView.swift; sourceTree = "<group>"; };
 		C556177529DAADB400001527 /* SACView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SACView.swift; sourceTree = "<group>"; };
 		C5592B6E298B7E54001010D6 /* UIGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGram.swift; sourceTree = "<group>"; };
@@ -305,6 +309,7 @@
 		C539BD2B295AB42C0034C2B0 /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				C5447CD029FB62C200205902 /* LocalNotifications */,
 				C59191DB29E4EBAC00DAB502 /* EnumNavi */,
 				C556177429DAADA000001527 /* StructAndClass */,
 				C56D6BC729B8A2A5002C24D1 /* Combine */,
@@ -371,6 +376,15 @@
 				C539BD3C295BEA760034C2B0 /* EmojiProvider.swift */,
 			);
 			path = SearchBarView;
+			sourceTree = "<group>";
+		};
+		C5447CD029FB62C200205902 /* LocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				C5447CD129FB62DF00205902 /* LocalNotifications.swift */,
+				C5447CD329FB636B00205902 /* LocalNotificationManager.swift */,
+			);
+			path = LocalNotifications;
 			sourceTree = "<group>";
 		};
 		C556177429DAADA000001527 /* StructAndClass */ = {
@@ -799,6 +813,7 @@
 				C52C4B7429B7221000454CB1 /* SpacerView.swift in Sources */,
 				C59191DD29E4EBC400DAB502 /* EnumNaviLink.swift in Sources */,
 				C5B05F8829AF8CE9009B21B4 /* PresentView.swift in Sources */,
+				C5447CD229FB62DF00205902 /* LocalNotifications.swift in Sources */,
 				C5B05F8629AF88EC009B21B4 /* ModalMainView.swift in Sources */,
 				C59F99B4296F428A003489AF /* StepperView.swift in Sources */,
 				C556177629DAADB400001527 /* SACView.swift in Sources */,
@@ -814,6 +829,7 @@
 				C539BD3A295BEA290034C2B0 /* SearchBarView.swift in Sources */,
 				C59F99A9296EFC89003489AF /* AlternativeContentView.swift in Sources */,
 				C5B0F840299688380043EA51 /* FileManagerView.swift in Sources */,
+				C5447CD429FB636B00205902 /* LocalNotificationManager.swift in Sources */,
 				C51A6FA529865D140020733A /* MVVMM.swift in Sources */,
 				C5A8CBA2295E89BF0096E2E6 /* Todos.swift in Sources */,
 				C5D9C9F02987BED600AF757C /* APICallsImageView.swift in Sources */,
