@@ -60,3 +60,4 @@ struct LocalNotifications_Previews: PreviewProvider {
             .environmentObject(LocalNotificationManager())
     }
 }
+

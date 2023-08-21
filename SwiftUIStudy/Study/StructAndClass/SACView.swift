@@ -41,47 +41,51 @@ struct SACView: View {
     
     
     var body: some View {
-        
-        VStack(spacing: 50) {
-            VStack {
-                Text("Struct User name is \(user.firstName) \(user.lastName)")
-                TextField("First name", text: $user.firstName)
-                TextField("Last name", text: $user.lastName)
+        NavigationView {
+            VStack(spacing: 50) {
+                VStack {
+                    Text("Struct User name is \(user.firstName) \(user.lastName)")
+                    TextField("First name", text: $user.firstName)
+                    TextField("Last name", text: $user.lastName)
+                }
+                
+                //단순 class만으론 @State로 값을 변경할 수 없다.
+                VStack {
+                    Text("Struct User name is \(classUser.firstName) \(classUser.lastName)")
+                    TextField("First name", text: $classUser.firstName)
+                    TextField("Last name", text: $classUser.lastName)
+                }
+                
+                //이렇게 Class는 Object같은 래퍼를 사용해줘야 한다.
+                VStack {
+                    Text("Struct User name is \(objectUser.firstName) \(objectUser.lastName)")
+                    TextField("First name", text: $objectUser.firstName)
+                    TextField("Last name", text: $objectUser.lastName)
+                }
+                
+                //하지만 다른 View에서 User의 값을 변경하지 않는다면 굳이 Object를 사용해야 할까?
+                Button("Move Sheet") {
+                    showingSheet.toggle()
+                }
+                .sheet(isPresented: $showingSheet) {
+                                    SACSheetView()
+                    //SACSheetView(name: user.firstName + user.lastName)
+                }
+                
+                NavigationLink(destination: SACSheetView()) {
+                    Text("Move NaviLink")
+                }
+                
             }
-            
-            //단순 class만으론 @State로 값을 변경할 수 없다.
-            VStack {
-                Text("Struct User name is \(classUser.firstName) \(classUser.lastName)")
-                TextField("First name", text: $classUser.firstName)
-                TextField("Last name", text: $classUser.lastName)
-            }
-            
-            //이렇게 Class는 Object같은 래퍼를 사용해줘야 한다.
-            VStack {
-                Text("Struct User name is \(objectUser.firstName) \(objectUser.lastName)")
-                TextField("First name", text: $objectUser.firstName)
-                TextField("Last name", text: $objectUser.lastName)
-            }
-            
-            //하지만 다른 View에서 User의 값을 변경하지 않는다면 굳이 Object를 사용해야 할까?
-            Button("Move Sheet") {
-                showingSheet.toggle()
-            }
-            .sheet(isPresented: $showingSheet) {
-//                SACSheetView()
-                SACSheetView(name: user.firstName + user.lastName)
-            }
-            
+            .padding()
         }
-        .padding()
-        
     }
 }
 
 struct SACSheetView: View {
     @Environment(\.dismiss) var dismiss
     //이렇게 상수를 걸어놓으면 이 View를 부를때 name에 값을 넣어줘야한다.
-    let name: String
+    //let name: String
     
     //여기서도 한번 사용해보자.
     @State private var user = SACUser()
@@ -91,7 +95,7 @@ struct SACSheetView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("상수로 받아온 값 : \(name)")
+            //Text("상수로 받아온 값 : \(name)")
             
             VStack {
                 Text("Struct User name is \(user.firstName) \(user.lastName)")

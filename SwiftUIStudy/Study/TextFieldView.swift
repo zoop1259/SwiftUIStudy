@@ -19,11 +19,18 @@ struct TextFieldView: View {
     //var name = "" //이방법도 통하지 않는다.
     @State private var name = ""
     @StateObject private var goal = TFVM()
-  
-  @State private var userName = ""
-  @State private var email = ""
-  //iOS 15이상.
-  @FocusState private var focusField: Field?
+    
+    @State private var inputText = ""
+    
+    @State private var userName = ""
+    @State private var email = ""
+    //iOS 15이상.
+    @FocusState private var focusField: Field?
+    
+    //UITextChecker
+    let textChecker = UITextChecker()
+    @State private var input = ""
+    
     
     var body: some View {
         Form {
@@ -52,49 +59,60 @@ struct TextFieldView: View {
                         goal.goal.count = "50"
                     }
                 }
-                //키보드 내리기.
+            //키보드 내리기.
                 .onTapGesture {
                     //goal.saveData()
                     UIApplication.shared.endEditing()
                 }
-          
-          //FieldFocus는 특정한 텍스트필드가 비어있는 경우 자동으로 포커싱해준다.
-          Text("아래는 FieldFocus 사용.")
-          TextField("Name 입력", text: $userName)
-            .onSubmit { //이 함수의 효과는 print읽기
-              print("return키를 눌렀을때 호출됨.")
-            }
-            .focused($focusField, equals:  .userName)
-          TextField("email 입력", text: $email)
-            .textInputAutocapitalization(.never) //처음 대문자 비활성화.
-            .disableAutocorrection(true) //자동 수정 기능 비활성화?
-            .textFieldStyle(.roundedBorder) //윤곽선 처리지만 Form에서 쓰는거라 그렇게 심하게 티나진않는다.
-            .focused($focusField, equals: .email)
-          
-          
-          //여기선 버튼을 눌렀을때 둘중에 하나라도 비어있으면 그쪽으로 포커싱하게.
-          Button("Sign in") {
-            if userName.isEmpty {
-              focusField = .userName
-            } else if email.isEmpty {
-              focusField = .email
-            } else {
-              print("Complete Input and sign in...")
-            }
-          }
-          
-
             
+            //FieldFocus는 특정한 텍스트필드가 비어있는 경우 자동으로 포커싱해준다.
+            Text("아래는 FieldFocus 사용.")
+            TextField("Name 입력", text: $userName)
+                .onSubmit { //이 함수의 효과는 print읽기
+                    print("return키를 눌렀을때 호출됨.")
+                }
+                .focused($focusField, equals:  .userName)
+            TextField("email 입력", text: $email)
+                .textInputAutocapitalization(.never) //처음 대문자 비활성화.
+                .disableAutocorrection(true) //자동 수정 기능 비활성화?
+                .textFieldStyle(.roundedBorder) //윤곽선 처리지만 Form에서 쓰는거라 그렇게 심하게 티나진않는다.
+                .focused($focusField, equals: .email)
+            
+            
+            //여기선 버튼을 눌렀을때 둘중에 하나라도 비어있으면 그쪽으로 포커싱하게.
+            Button("Sign in") {
+                if userName.isEmpty {
+                    focusField = .userName
+                } else if email.isEmpty {
+                    focusField = .email
+                } else {
+                    print("Complete Input and sign in...")
+                }
+            }
+            
+            
+            VStack {
+                TextField("Enter text", text: $input)
+                    .autocapitalization(.words)
+                    .onChange(of: input) { newValue in
+                        let range = NSRange(location: 0, length: newValue.utf16.count)
+                        let misspelledRange = textChecker.rangeOfMisspelledWord(in: newValue, range: range, startingAt: 0, wrap: false, language: "en_US")
+                        
+                        if misspelledRange.location != NSNotFound {
+                            let suggestions = textChecker.guesses(forWordRange: misspelledRange, in: newValue, language: "en_US") ?? []
+                            print("Misspelled word: \(newValue[Range(misspelledRange, in: newValue)!]), suggestions: \(suggestions)")
+                        }
+                    }
+            }
         }
         .onTapGesture { //Form범위를 다 늘려버리고 탭하면 키보드 내려가게.
-          hideKeyboard()
+            hideKeyboard()
         }
         .navigationBarTitleDisplayMode(.inline)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         
-        
-        
     }
+    
 }
 
 struct TextFieldView_Previews: PreviewProvider {
