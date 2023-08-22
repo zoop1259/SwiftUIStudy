@@ -96,6 +96,9 @@
 		C5B628A7298CAA6300C96C9C /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */; };
 		C5B628A9298CFBA600C96C9C /* PhotosUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */; };
 		C5BCBF1D29D455A8001D10C0 /* MultiplatformSampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */; };
+		C5CF708E2A94DD0D0091D5DB /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF708D2A94DD0D0091D5DB /* Champion.swift */; };
+		C5CF70902A94DD2A0091D5DB /* DDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF708F2A94DD2A0091D5DB /* DDViewModel.swift */; };
+		C5CF70922A94DD4C0091D5DB /* ChampionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70912A94DD4C0091D5DB /* ChampionView.swift */; };
 		C5D7944929C830F800242C5A /* LocalizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D7944829C830F800242C5A /* LocalizationView.swift */; };
 		C5D9C9EA2987BB4C00AF757C /* APICallsPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */; };
 		C5D9C9EC2987BB8300AF757C /* APICallsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */; };
@@ -206,6 +209,9 @@
 		C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 		C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIView.swift; sourceTree = "<group>"; };
 		C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformSampleCode.swift; sourceTree = "<group>"; };
+		C5CF708D2A94DD0D0091D5DB /* Champion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
+		C5CF708F2A94DD2A0091D5DB /* DDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDViewModel.swift; sourceTree = "<group>"; };
+		C5CF70912A94DD4C0091D5DB /* ChampionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionView.swift; sourceTree = "<group>"; };
 		C5D7944829C830F800242C5A /* LocalizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationView.swift; sourceTree = "<group>"; };
 		C5D9C9E92987BB4C00AF757C /* APICallsPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsPracticeView.swift; sourceTree = "<group>"; };
 		C5D9C9EB2987BB8300AF757C /* APICallsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallsViewModel.swift; sourceTree = "<group>"; };
@@ -354,6 +360,7 @@
 		C539BD34295BE36F0034C2B0 /* BasicApp */ = {
 			isa = PBXGroup;
 			children = (
+				C5CF708C2A94DCF60091D5DB /* RiotDD */,
 				C5B6289F298CA73E00C96C9C /* Scan-Ocr */,
 				C5D9C9E82987BAF600AF757C /* APICalls */,
 				C5DF457D296E1C5300EEB686 /* ProfileView */,
@@ -598,6 +605,16 @@
 			path = "Scan-Ocr";
 			sourceTree = "<group>";
 		};
+		C5CF708C2A94DCF60091D5DB /* RiotDD */ = {
+			isa = PBXGroup;
+			children = (
+				C5CF708D2A94DD0D0091D5DB /* Champion.swift */,
+				C5CF708F2A94DD2A0091D5DB /* DDViewModel.swift */,
+				C5CF70912A94DD4C0091D5DB /* ChampionView.swift */,
+			);
+			path = RiotDD;
+			sourceTree = "<group>";
+		};
 		C5D9C9E82987BAF600AF757C /* APICalls */ = {
 			isa = PBXGroup;
 			children = (
@@ -767,6 +784,7 @@
 				C539BD2F295AE9C10034C2B0 /* TextFieldView.swift in Sources */,
 				C5A8CBA0295D84B10096E2E6 /* GradientView.swift in Sources */,
 				C50BDB64299FB55400F59576 /* ToggleView.swift in Sources */,
+				C5CF708E2A94DD0D0091D5DB /* Champion.swift in Sources */,
 				C59F99A4296EFBD2003489AF /* JournalView.swift in Sources */,
 				C539BD3D295BEA760034C2B0 /* EmojiProvider.swift in Sources */,
 				C5F409202992BC74001D5096 /* BetterRest.swift in Sources */,
@@ -799,6 +817,7 @@
 				C55F82DE29A6ED3E00D440A4 /* ToolTipView.swift in Sources */,
 				C59F999E296EFBBC003489AF /* TabMainView.swift in Sources */,
 				C59191D829E2BFC400DAB502 /* JFilteredList.swift in Sources */,
+				C5CF70922A94DD4C0091D5DB /* ChampionView.swift in Sources */,
 				C56D6BCA29B8A2D6002C24D1 /* CSumView.swift in Sources */,
 				C517E64B298F8D930048C920 /* SRandomNumberView.swift in Sources */,
 				C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */,
@@ -822,6 +841,7 @@
 				C517E64D298FC22D0048C920 /* TextView.swift in Sources */,
 				C5B05F7829AC74EE009B21B4 /* SheetView.swift in Sources */,
 				C539BD33295B23C30034C2B0 /* CurrencyView.swift in Sources */,
+				C5CF70902A94DD2A0091D5DB /* DDViewModel.swift in Sources */,
 				C56108C229BB312800777D3E /* FluxView.swift in Sources */,
 				C5592B6F298B7E54001010D6 /* UIGram.swift in Sources */,
 				C5D9CA412988C8B100AF757C /* JMyTextView.swift in Sources */,
