@@ -135,9 +135,13 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                         NavigationLink(destination: BetterRest()) {
                             Text("수면시간계산기(use CoreML)")
                         }
-                      NavigationLink(destination: FileManagerView()) {
-                          Text("TextField로 파일 저장해보기")
-                      }
+                        NavigationLink(destination: FileManagerView()) {
+                            Text("TextField로 파일 저장해보기")
+                        }
+                        
+                        NavigationLink(destination: ChampionView()) {
+                            Text("DataDragon써보기")
+                        }
                     }
                     //Link("단순히 링크로 듸우기", destination: URL(string: "https://www.naver.com")!)
                 }
@@ -160,6 +164,8 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                     NavigationLink(destination: JTapView()) {
                         Text("Chapter4")
                     }
+                    
+                    
                 }
 
             }

@@ -23,12 +23,10 @@ class DDViewModel: ObservableObject {
             if let data = data {
                 do {
                     let decoder = JSONDecoder()
-                    let championsData = try decoder.decode([String: [Champion]].self, from: data)
-                    if let championList = championsData["data"] {
-                        DispatchQueue.main.async {
-                            print(championList)
-                            self.champions = championList
-                        }
+                    let championDataWrapper = try decoder.decode(ChampionDataWrapper.self, from: data)
+                    let champions = Array(championDataWrapper.data.values)
+                    DispatchQueue.main.async {
+                        self.champions = champions
                     }
                 } catch {
                     print("Error decoding JSON: \(error)")

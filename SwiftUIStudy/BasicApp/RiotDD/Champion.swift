@@ -17,3 +17,7 @@ struct Champion: Identifiable, Decodable {
         case name
     }
 }
+
+struct ChampionDataWrapper: Decodable {
+    let data: [String: Champion]
+}
