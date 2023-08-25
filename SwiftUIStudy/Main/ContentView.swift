@@ -97,6 +97,9 @@ struct ContentView: View { //하나 이상의 시각적 요소를 정의한다.
                         NavigationLink(destination: LocalNotifications()) {
                             Text("LocalNotifications")
                         }
+                        NavigationLink(destination: SearchFilterView()) {
+                            Text("필터연습")
+                        }
                     }
                 })
                 
