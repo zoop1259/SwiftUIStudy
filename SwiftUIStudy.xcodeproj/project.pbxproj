@@ -96,6 +96,7 @@
 		C5B628A7298CAA6300C96C9C /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */; };
 		C5B628A9298CFBA600C96C9C /* PhotosUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */; };
 		C5BCBF1D29D455A8001D10C0 /* MultiplatformSampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */; };
+		C5C83AE32AC1CA7C00153067 /* LongPressGuesTureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C83AE22AC1CA7C00153067 /* LongPressGuesTureView.swift */; };
 		C5CF708E2A94DD0D0091D5DB /* Champion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF708D2A94DD0D0091D5DB /* Champion.swift */; };
 		C5CF70902A94DD2A0091D5DB /* DDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF708F2A94DD2A0091D5DB /* DDViewModel.swift */; };
 		C5CF70922A94DD4C0091D5DB /* ChampionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF70912A94DD4C0091D5DB /* ChampionView.swift */; };
@@ -210,6 +211,7 @@
 		C5B628A6298CAA6300C96C9C /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 		C5B628A8298CFBA600C96C9C /* PhotosUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUIView.swift; sourceTree = "<group>"; };
 		C5BCBF1C29D455A8001D10C0 /* MultiplatformSampleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplatformSampleCode.swift; sourceTree = "<group>"; };
+		C5C83AE22AC1CA7C00153067 /* LongPressGuesTureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGuesTureView.swift; sourceTree = "<group>"; };
 		C5CF708D2A94DD0D0091D5DB /* Champion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Champion.swift; sourceTree = "<group>"; };
 		C5CF708F2A94DD2A0091D5DB /* DDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDViewModel.swift; sourceTree = "<group>"; };
 		C5CF70912A94DD4C0091D5DB /* ChampionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionView.swift; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 				C556177029D854AA00001527 /* ShowingAndHidingView.swift */,
 				C522B0B429E6E09900B1DDE6 /* LinkView.swift */,
 				C5CF70932A98DFDB0091D5DB /* SearchFilterView.swift */,
+				C5C83AE22AC1CA7C00153067 /* LongPressGuesTureView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -828,6 +831,7 @@
 				C517E62C298EC83E0048C920 /* OUserWrapper.swift in Sources */,
 				C5F409222992BEF2001D5096 /* SleepCalculator.mlmodel in Sources */,
 				C5B05F8429AF88E5009B21B4 /* ModalView.swift in Sources */,
+				C5C83AE32AC1CA7C00153067 /* LongPressGuesTureView.swift in Sources */,
 				C5DF4585296E1F5900EEB686 /* ProfileView.swift in Sources */,
 				C5D9CA3D2988C0E800AF757C /* JContentView.swift in Sources */,
 				C59F99AD296EFFBA003489AF /* BasicAdaptableView.swift in Sources */,
