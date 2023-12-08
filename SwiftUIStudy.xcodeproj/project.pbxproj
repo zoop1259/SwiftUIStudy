@@ -90,6 +90,7 @@
 		C5B0F840299688380043EA51 /* FileManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0F83F299688380043EA51 /* FileManagerView.swift */; };
 		C5B0F84C299A4E8E0043EA51 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0F84B299A4E8E0043EA51 /* BindingView.swift */; };
 		C5B0F84E299A4E940043EA51 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0F84D299A4E940043EA51 /* StateView.swift */; };
+		C5B3EB252B22E9950022AF97 /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B3EB242B22E9950022AF97 /* GeometryView.swift */; };
 		C5B628A1298CA75100C96C9C /* VisionKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A0298CA75100C96C9C /* VisionKitView.swift */; };
 		C5B628A3298CA82F00C96C9C /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A2298CA82F00C96C9C /* ScanData.swift */; };
 		C5B628A5298CA91700C96C9C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B628A4298CA91700C96C9C /* ScannerView.swift */; };
@@ -205,6 +206,7 @@
 		C5B0F84D299A4E940043EA51 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		C5B0F85A299A9D8E0043EA51 /* BetterClosures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BetterClosures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5B2DC9D29941B4600D85291 /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5B3EB242B22E9950022AF97 /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
 		C5B628A0298CA75100C96C9C /* VisionKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionKitView.swift; sourceTree = "<group>"; };
 		C5B628A2298CA82F00C96C9C /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
 		C5B628A4298CA91700C96C9C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 				C522B0B429E6E09900B1DDE6 /* LinkView.swift */,
 				C5CF70932A98DFDB0091D5DB /* SearchFilterView.swift */,
 				C5C83AE22AC1CA7C00153067 /* LongPressGuesTureView.swift */,
+				C5B3EB242B22E9950022AF97 /* GeometryView.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -776,6 +779,7 @@
 				C5592B7E298BBE71001010D6 /* JTabViewColor.swift in Sources */,
 				C5B0F84E299A4E940043EA51 /* StateView.swift in Sources */,
 				C5B0F84C299A4E8E0043EA51 /* BindingView.swift in Sources */,
+				C5B3EB252B22E9950022AF97 /* GeometryView.swift in Sources */,
 				C59F99A2296EFBC9003489AF /* SettingsView.swift in Sources */,
 				C5592B7C298BBD1F001010D6 /* JTapView.swift in Sources */,
 				C5B628A3298CA82F00C96C9C /* ScanData.swift in Sources */,
